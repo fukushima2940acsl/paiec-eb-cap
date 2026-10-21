@@ -1,0 +1,5 @@
+# Minimal training/evaluation dependencies. Exact release versions are recorded
+# on the experiment server in release/environment.json by finalize_repository.py.
+numpy>=1.24
+pandas>=2.0
+pyarrow>=12.0

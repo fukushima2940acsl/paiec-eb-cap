@@ -1,0 +1,7 @@
+{
+  "files": {
+    "check_submission_zip.py": "49e8a666df64671e1d32b262647b9525dfe58c93596f034289d264016ddd9eda",
+    "run_smoke_test.py": "db0fd19b45d982db510b7ac78e588a140b77c287ffc023e23d1731cda9ed8fc2"
+  },
+  "note": "Hashes of the two local validation scripts; the complete Starting Kit is not redistributed."
+}

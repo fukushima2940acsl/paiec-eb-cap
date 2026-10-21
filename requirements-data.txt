@@ -1,0 +1,2 @@
+# Only needed to download the pinned public training dataset.
+huggingface_hub>=0.20

@@ -1,0 +1,23 @@
+{
+  "submission_id": 1008013,
+  "method": "eb_cap",
+  "reported_status": "Finished",
+  "reported_brier_alc": 0.185216,
+  "reported_date_jst": "2026-10-21",
+  "score_source": "User-provided Codabench feedback; not an API verification by this script.",
+  "artifact_binding": "User associates the selected local ZIP with submission 1008013.",
+  "zip_sha256": "1b555c67998ef753c6b896960ce76115d70943c1db64a139d21b79fcc3c36633",
+  "members_sha256": {
+    "model.py": "53ae53b2118486aeef695492d53c96026f11b44da0351d2603fec295fc3ec411",
+    "prior.json": "0205f6477a2518d0a18d65268d682bf7c58afcc7956036c29ecf0d85d01f2808"
+  },
+  "training": {
+    "fold": "all",
+    "max_items": 1000,
+    "uniform_mix": 0.0,
+    "zero_half": false,
+    "n_pairs": 5437,
+    "n_benchmarks": 30,
+    "mean": 0.46988485328315505
+  }
+}

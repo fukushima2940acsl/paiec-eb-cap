@@ -1,0 +1,25 @@
+{
+  "files": {
+    "responses.parquet": {
+      "bytes": 114106452,
+      "sha256": "987b0e6af2917e62b756fd191ce51a11e47183119153d7e413a3c152a2f95583"
+    },
+    "items.parquet": {
+      "bytes": 260215053,
+      "sha256": "251d62ffd9160a8edfc01f021fec91aa022af59afef825464d50259f72174d70"
+    },
+    "subjects.parquet": {
+      "bytes": 354395,
+      "sha256": "b3f9f337c6bf80899962cfecd709bd5e4bf4e6790dae9a226401d9033423fbcc"
+    },
+    "summary.csv": {
+      "bytes": 4401,
+      "sha256": "f454a16825f413fedb98221415bc644acf60d987b9785381a97cf2c6ea402b47"
+    },
+    "folds.json": {
+      "bytes": 1295,
+      "sha256": "b88157fb9fbca6c44e96a7607d94bd7a87cbb51e4e14b75b9dff0f0542cbaf4d"
+    }
+  },
+  "note": "Hashes identify the exact prepared training files. Parquet bytes can differ after reserialization."
+}

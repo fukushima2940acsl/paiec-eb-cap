@@ -1,0 +1,27 @@
+# Local inputs, credentials, generated results and archives
+/work
+/payload/
+/data/
+/starting_kit
+/results/
+/dist/
+/private/
+/.hf_cache/
+/.config/
+.env
+.env.*
+*.pem
+*.key
+*.parquet
+*.npy
+*.npz
+*.pt
+*.pth
+*.zip
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+*.log
