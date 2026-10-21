@@ -6,7 +6,7 @@ This release preserves the `eb_cap` method associated with **Codabench submissio
 
 ## Results
 
-Lower Brier ALC is better. These numbers are from reported server runs. Release tooling was tested with synthetic fixtures; real-data reproduction must be checked separately using the commands below.
+Lower Brier ALC is better. These numbers are from reported server runs. On 2026-10-21, the maintainer also rebuilt the full-data submission through this repository using the preserved prepared dataset: 20 tests, all 528 prediction-parity cases, the Starting Kit ZIP check, and the smoke test passed. The rebuilt `model.py` and `prior.json` matched the recorded hashes for submission 1008013. See [validation evidence and scope](docs/RESULTS.md#validation-scope); rebuilding the dataset from a fresh download has not yet been independently verified.
 
 | Method | Confirmation-run ALC | Difference from eb_grid | Exploratory 95% interval |
 |---|---:|---:|---|
@@ -36,16 +36,17 @@ The implementation clips grid endpoints to `[1e-6, 1-1e-6]` and computes posteri
 
 ## Reproducing a published release
 
-Use Python 3.10 or later, preferably the versions recorded in `release/environment.json`. Follow [data and environment setup](docs/DATA.md) to obtain the public training data and official Starting Kit, then connect them:
+Use Python 3.10 or later, preferably the versions recorded in `release/environment.json`. Follow [data and environment setup](docs/DATA.md) to obtain the public training data and the **Starting Kit downloaded from Codabench competition 17828**. That guide locates the extracted kit, checks its validation scripts against `release/starting_kit.json`, and connects the inputs. The separate GitHub baseline repository is not a substitute for this kit.
+
+Once the prepared data and a matching kit are connected, run:
 
 ```bash
-python tools/connect_inputs.py --work data/prepared --starting-kit /workspace/official-starting-kit
 python -m unittest discover -s tests -v
 python -u prepare_eb_cap.py --root .
 python tools/verify_reproduction.py
 ```
 
-Replace the example Starting Kit path with its actual location. The published repository must contain the `configs/` and `release/` records generated on the original execution server. The preparation ZIP does not contain those records yet; maintainers must complete the release-preparation step below before publication.
+The published repository already includes the `configs/` and `release/` records generated on the original execution server. Keep those records when reproducing `v0.1.0-eb-cap`. The release-preparation section below is for maintainers capturing the original workspace, not a prerequisite for users of the published repository.
 
 ### Rebuild the submission
 

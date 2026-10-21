@@ -63,4 +63,34 @@ An earlier eb_grid submission, 1007670, reached prediction completion but failed
 
 ## Validation scope
 
-Synthetic tests cover parity with the original training and inference code, fold isolation, pair identity, comparison alignment, submission packaging, failure handling, release-record consistency, and publication checks. Local tests mock Parquet reads and use stubs for official validation commands. Real-data reproduction and the actual official checks must also be run on the execution server.
+Synthetic tests cover parity with the original training and inference code, fold isolation, pair identity, comparison alignment, submission packaging, failure handling, release-record consistency, and publication checks. These tests mock Parquet reads and use stubs for official validation commands.
+
+### Maintainer reproduction on 2026-10-21
+
+The maintainer separately ran the following sequence through the public-repository workspace, using the preserved prepared dataset and the existing Codabench Starting Kit:
+
+```bash
+python -m unittest discover -s tests -v
+python -u prepare_eb_cap.py --root .
+python tools/verify_reproduction.py
+python tools/check_public_source.py
+```
+
+The reported execution log confirms:
+
+| Check | Result |
+|---|---|
+| Unit tests | 20 passed |
+| Full-data training | 30 eligible benchmarks, 5,437 pairs; `fold=all`, `max_items=1000` |
+| Fitted prior mean | 0.469885, rounded to six decimal places |
+| Prediction parity | All 528 success-count/label-count combinations through 31 labels passed |
+| Starting Kit ZIP validation | Passed |
+| Starting Kit smoke test | Passed; this is an interface check, not a performance estimate |
+| Submission reproduction | Both `model.py` and `prior.json` matched the recorded member hashes for submission 1008013 |
+| Public source audit | 42 files passed |
+
+The execution environment is recorded in [`release/environment.json`](../release/environment.json): Python 3.11.13, numpy 2.3.2, pandas 3.0.6, and pyarrow 25.0.1. Prepared-input fingerprints and validation-script hashes are recorded in [`release/data_fingerprints.json`](../release/data_fingerprints.json) and [`release/starting_kit.json`](../release/starting_kit.json).
+
+The rebuilt ZIP reported SHA-256 `9beafea2fb4ba4742727022b4300dbf693de3c1fda99f41d939fcb3b462141da`. Its ZIP-container hash differs from the original submission archive recorded in [`release/submission_1008013.json`](../release/submission_1008013.json); the two member files match exactly. ZIP metadata such as timestamps is excluded from the reproduction comparison.
+
+This evidence comes from the maintainer's supplied server log. It verifies rebuilding from the preserved prepared data, not independent reconstruction from a fresh download. The sequence did not rerun the cross-validation comparisons above or create another Codabench submission. Independent dataset reconstruction and compatibility of any newer Starting Kit remain to be checked.
