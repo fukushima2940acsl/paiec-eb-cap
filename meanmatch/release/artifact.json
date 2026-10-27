@@ -1,0 +1,24 @@
+{
+  "method": "eb_cap_expanded_meanmatch",
+  "baseline_tag": "v0.1.0-eb-cap",
+  "baseline_commit": "3758402035b7bffe976746812f8c7166dac74877",
+  "baseline_tag_object": "a8b8ceaf05e2bc0f8ff07bd59b64c8e16afa1caa",
+  "zip_name": "eb_cap_expanded_meanmatch_all.zip",
+  "zip_sha256": "5c2495ead27f0ec76e32567f07400de8a05442486e60ae05fb3c1a53e7fd7048",
+  "members_sha256": {
+    "model.py": "53ae53b2118486aeef695492d53c96026f11b44da0351d2603fec295fc3ec411",
+    "prior.json": "99f3a8c06baddf09dc6872ae1761cd5d7495f713577436a5b97b4002d05b6387"
+  },
+  "submission_ids": [
+    1010083,
+    1010186,
+    1010259,
+    1010647
+  ],
+  "binding": "User-reported association of local ZIP and hosted submissions; not a download of the hosted artifacts.",
+  "old_pairs": 5437,
+  "old_benchmarks": 30,
+  "expanded_pairs": 10187,
+  "expanded_benchmarks": 92,
+  "frozen_rule_sha256": "9895c779712ae8fe0f4fc55ab4f282bfee2f0c17a1d180c1076d114541c547e4"
+}

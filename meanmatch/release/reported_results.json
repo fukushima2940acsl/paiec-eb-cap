@@ -1,0 +1,184 @@
+{
+  "source": "Maintainer-reported Codabench screenshots and aggregate formative feedback; not an account API query.",
+  "primary_ids": [
+    1010152,
+    1010186,
+    1010242,
+    1010259,
+    1010465,
+    1010647
+  ],
+  "runs": [
+    {
+      "id": 1010152,
+      "file_name": "eb_cap_all.zip",
+      "date_jst": "2026-10-27 02:17",
+      "status": "Finished",
+      "score": 0.203744,
+      "method": "eb_cap",
+      "pair_count": 9,
+      "benchmark_count": 7,
+      "budget_means": {
+        "0": 0.24490677777777778,
+        "1": 0.21005,
+        "3": 0.21028433333333332,
+        "7": 0.19300211111111112,
+        "15": 0.189467,
+        "31": 0.18692733333333333
+      }
+    },
+    {
+      "id": 1010186,
+      "file_name": "eb_cap_expanded_meanmatch_all.zip",
+      "date_jst": "2026-10-27 02:31",
+      "status": "Finished",
+      "score": 0.194683,
+      "method": "meanmatch",
+      "pair_count": 8,
+      "benchmark_count": 7,
+      "budget_means": {
+        "0": 0.235593,
+        "1": 0.22889925,
+        "3": 0.21927125,
+        "7": 0.17445175,
+        "15": 0.154069125,
+        "31": 0.15785575
+      }
+    },
+    {
+      "id": 1010242,
+      "file_name": "eb_cap_all.zip",
+      "date_jst": "2026-10-27 02:47",
+      "status": "Finished",
+      "score": 0.206213,
+      "method": "eb_cap",
+      "pair_count": 8,
+      "benchmark_count": 7,
+      "budget_means": {
+        "0": 0.24477375,
+        "1": 0.229122375,
+        "3": 0.2042445,
+        "7": 0.19172287500000001,
+        "15": 0.189274,
+        "31": 0.18862837500000001
+      }
+    },
+    {
+      "id": 1010259,
+      "file_name": "eb_cap_expanded_meanmatch_all.zip",
+      "date_jst": "2026-10-27 02:54",
+      "status": "Finished",
+      "score": 0.167588,
+      "method": "meanmatch",
+      "pair_count": 9,
+      "benchmark_count": 7,
+      "budget_means": {
+        "0": 0.23492288888888888,
+        "1": 0.17402933333333334,
+        "3": 0.16810633333333333,
+        "7": 0.15287866666666666,
+        "15": 0.15250544444444444,
+        "31": 0.14591966666666667
+      }
+    },
+    {
+      "id": 1010465,
+      "file_name": "eb_cap_all.zip",
+      "date_jst": "2026-10-27 03:53",
+      "status": "Finished",
+      "score": 0.206785,
+      "method": "eb_cap",
+      "pair_count": 9,
+      "benchmark_count": 7,
+      "budget_means": {
+        "0": 0.2470481111111111,
+        "1": 0.2144561111111111,
+        "3": 0.22843788888888888,
+        "7": 0.18774222222222223,
+        "15": 0.1863521111111111,
+        "31": 0.1868238888888889
+      }
+    },
+    {
+      "id": 1010647,
+      "file_name": "eb_cap_expanded_meanmatch_all.zip",
+      "date_jst": "2026-10-27 04:27",
+      "status": "Finished",
+      "score": 0.182187,
+      "method": "meanmatch",
+      "pair_count": 9,
+      "benchmark_count": 7,
+      "budget_means": {
+        "0": 0.24340233333333333,
+        "1": 0.21237466666666666,
+        "3": 0.17035188888888889,
+        "7": 0.167339,
+        "15": 0.16310944444444445,
+        "31": 0.15211588888888888
+      }
+    }
+  ],
+  "summary": {
+    "eb_cap": {
+      "n_finished": 3,
+      "mean": 0.20558066666666666,
+      "sample_sd": 0.0016161077728088923,
+      "min": 0.203744,
+      "max": 0.206785,
+      "pair_rows": 26,
+      "unique_pairs": 23,
+      "budget_means_equal_submission_weight": {
+        "0": 0.24557621296296298,
+        "1": 0.21787616203703702,
+        "3": 0.21432224074074074,
+        "7": 0.1908224027777778,
+        "15": 0.18836437037037038,
+        "31": 0.18745986574074075
+      }
+    },
+    "meanmatch": {
+      "n_finished": 3,
+      "mean": 0.18148599999999998,
+      "sample_sd": 0.01356109534661563,
+      "min": 0.167588,
+      "max": 0.194683,
+      "pair_rows": 26,
+      "unique_pairs": 23,
+      "budget_means_equal_submission_weight": {
+        "0": 0.23797274074074073,
+        "1": 0.20510108333333332,
+        "3": 0.18590982407407408,
+        "7": 0.16488980555555555,
+        "15": 0.15656133796296295,
+        "31": 0.1519637685185185
+      }
+    }
+  },
+  "cancelled": {
+    "id": 1010276,
+    "method": "eb_cap",
+    "date_jst": "2026-10-27 03:02",
+    "status": "Cancelled",
+    "score": null,
+    "reason": "Maintainer suspects network-related trouble; whether a score was seen before cancellation is not established."
+  },
+  "historical_excluded": [
+    {
+      "id": 1008013,
+      "method": "eb_cap",
+      "score": 0.185216
+    },
+    {
+      "id": 1010083,
+      "method": "meanmatch",
+      "score": 0.210622
+    }
+  ],
+  "common_pair_count": 1,
+  "common_pair_alc": {
+    "eb_cap": 0.087195,
+    "meanmatch": 0.087987
+  },
+  "observed_delta": -0.02409466666666668,
+  "private_target_identifiers_included": false
+}

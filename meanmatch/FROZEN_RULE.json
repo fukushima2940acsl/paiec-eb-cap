@@ -1,0 +1,8 @@
+{
+  "source": "paiec_eb_meanmatch_20261025/calibration.py",
+  "sha256": "9895c779712ae8fe0f4fc55ab4f282bfee2f0c17a1d180c1076d114541c547e4",
+  "function": "match_old_mean",
+  "candidate_count": 1,
+  "target": "fold=all: full old public training prior effective zero-label prediction",
+  "uses_evaluation_labels": false
+}

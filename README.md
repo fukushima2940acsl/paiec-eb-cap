@@ -1,10 +1,25 @@
-# PAIEC: eb_cap
+# PAIEC: EB-Cap and fixed mean matching
 
 An empirical Bayes predictor for the **Predictive AI Evaluation Competition at NeurIPS 2026**. The method learns a prior over success rates from public training data, then updates it using the labels revealed during evaluation. It requires no GPU, embeddings, or external inference API.
 
 This release preserves the `eb_cap` method associated with **Codabench submission 1008013** as a baseline for further experiments. Original code and documentation are released under the [MIT License](LICENSE). Training data and the official Starting Kit are obtained separately.
 
-## Results
+## Mean-matched extension (2026-10-27)
+
+The [mean-matched expanded-prior addition](meanmatch/README.md) uses all eligible
+old and additional public training data and matches its zero-label prediction to
+the old-only prior. It retains the baseline inference code and the original
+`v0.1.0-eb-cap` tag. The original baseline reproduction commands below remain valid.
+
+The addition includes the fitted prior, training/reproduction tools, pinned-data
+preparation, and [results with limitations](meanmatch/RESULTS.md). Local development
+differences are small and their exploratory intervals include zero. Three new
+hosted runs averaged 0.205581 for the baseline and 0.181486 for the extension,
+but mostly evaluated different pairs; this does not establish that the method
+caused the observed difference. Historical runs and the cancelled attempt are
+also recorded. No final competition entry is selected by this addition.
+
+## Original baseline results
 
 Lower Brier ALC is better. These numbers are from reported server runs. On 2026-10-21, the maintainer also rebuilt the full-data submission through this repository using the preserved prepared dataset: 20 tests, all 528 prediction-parity cases, the Starting Kit ZIP check, and the smoke test passed. The rebuilt `model.py` and `prior.json` matched the recorded hashes for submission 1008013. See [validation evidence and scope](docs/RESULTS.md#validation-scope); rebuilding the dataset from a fresh download has not yet been independently verified.
 
