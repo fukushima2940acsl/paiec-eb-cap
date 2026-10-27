@@ -109,7 +109,8 @@ See [RESULTS.md](RESULTS.md) and the machine-readable aggregate records in
 improvements with intervals including zero. The three new hosted runs averaged
 0.205581 for EB-Cap and 0.181486 for mean matching, but used largely different
 evaluation pairs. **The observed difference is not a causal estimate of method
-improvement.** Private per-pair feedback is not included in this public addition.
+improvement.** Raw private feedback tables and anonymous identifiers are not
+distributed.
 
 This package reproduces the final training estimator and submitted predictor.
 It records earlier local CV summaries, but does not claim that all exploratory
