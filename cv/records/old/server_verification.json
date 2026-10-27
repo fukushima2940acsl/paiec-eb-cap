@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "kind": "old",
+  "rows": 1528,
+  "distinct_pairs": 973,
+  "benchmarks": 30,
+  "clusters": 30,
+  "seed_rows": {
+    "3": 509,
+    "4": 506,
+    "5": 513
+  },
+  "prior_refit_from_training_stats": true,
+  "max_B0_mean_error": 7.743805596760467e-14,
+  "aggregate_max_abs_errors": {
+    "summary": 8.326672684688674e-17,
+    "by_seed": 0.0,
+    "by_fold": 6.715277205832093e-18,
+    "by_budget": 1.1102230246251565e-16,
+    "by_benchmark": 1.6653345369377348e-16,
+    "by_benchmark_budget": 1.6653345369377348e-16,
+    "by_benchmark_seed": 1.0061396160665481e-16,
+    "pair_balanced_summary": 8.326672684688674e-17,
+    "benchmark_macro_summary": 1.1102230246251565e-16,
+    "meanmatch_vs_expanded": 0.0,
+    "meanmatch_vs_expanded_by_budget": 6.3188657865170805e-18
+  },
+  "draft_rounded_values_match": true,
+  "full_snapshot_rebuild_and_scoring_performed": false,
+  "versions": {
+    "python": "3.11.13",
+    "numpy": "2.3.2",
+    "pandas": "3.0.6"
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "source_archive": "cv_records_0widwn1a.zip",
+  "source_archive_sha256": "57958821675ec1c5b536964107332ed29bd588c56617331368c224b4264f4236",
+  "baseline_commit_at_collection": "edf6380f3c1264ac42179805cea5782664c95300",
+  "baseline_tag": "v0.1.0-eb-cap",
+  "baseline_tag_object": "a8b8ceaf05e2bc0f8ff07bd59b64c8e16afa1caa",
+  "baseline_tag_commit": "3758402035b7bffe976746812f8c7166dac74877",
+  "data_repository": "aims-foundations/measurement-db",
+  "data_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "source_inventory_member_hashes_verified": 392,
+  "populations": {
+    "old": {
+      "run": "meanmatch_old_ouoylcdj",
+      "reference": "screen_5znmvkts",
+      "methods": [
+        "eb_cap",
+        "eb_cap_expanded",
+        "eb_cap_expanded_meanmatch"
+      ],
+      "recorded_versions": {
+        "python": "3.11.13",
+        "numpy": "2.3.2",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1"
+      },
+      "source_manifest_sha256": "244ce304752658fc21ff8502430e4e1402df89b371b688344862b48e14998433",
+      "study_counts": {
+        "rows": 1528,
+        "distinct_pairs": 973,
+        "benchmarks": 30,
+        "clusters": 30,
+        "seed_rows": {
+          "3": 509,
+          "4": 506,
+          "5": 513
+        }
+      }
+    },
+    "new": {
+      "run": "meanmatch_h05_goy4",
+      "reference": "newbench_16hova27",
+      "methods": [
+        "eb_old_only",
+        "eb_expanded",
+        "eb_expanded_meanmatch"
+      ],
+      "recorded_versions": {
+        "python": "3.11.13",
+        "numpy": "2.3.2",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1"
+      },
+      "source_manifest_sha256": "8ee294d980eec8f2d22f16548a097cd92d9c508962c3ca41eac97cb99bb3a552",
+      "study_counts": {
+        "rows": 2071,
+        "distinct_pairs": 1183,
+        "benchmarks": 60,
+        "clusters": 57,
+        "seed_rows": {
+          "3": 699,
+          "4": 685,
+          "5": 687
+        }
+      }
+    }
+  },
+  "exports": {
+    "records/old/pairs/eb_cap.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/eb_cap.csv",
+      "original_sha256": "9ca9dee20a81a05aa2a364ca37fbcdb9aeca1269d961401b2622b1d30b0bf4b1",
+      "transformation": "Remove display-only subject column; preserve every other field string and row order."
+    },
+    "records/old/pairs/eb_cap_expanded.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/eb_cap_expanded.csv",
+      "original_sha256": "6ff19873a8a2768020ac2fbdbabff7a29719b10b586ad9a3dbdfc0532ebebffc",
+      "transformation": "Remove display-only subject column; preserve every other field string and row order."
+    },
+    "records/old/pairs/eb_cap_expanded_meanmatch.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/eb_cap_expanded_meanmatch.csv",
+      "original_sha256": "2f4972891450af937467d443d1cf5ebc1943b8834773381c1fe82ef98a25f6e0",
+      "transformation": "Remove display-only subject column; preserve every other field string and row order."
+    },
+    "records/old/reference_controls/eb_cap.csv": {
+      "archive_member": "evidence/paiec_eb_expanded_20261023/runs/screen_5znmvkts/eb_cap.csv",
+      "original_sha256": "9ca9dee20a81a05aa2a364ca37fbcdb9aeca1269d961401b2622b1d30b0bf4b1",
+      "transformation": "Remove display-only subject column; preserve every other field string and row order."
+    },
+    "records/old/reference_controls/eb_cap_expanded.csv": {
+      "archive_member": "evidence/paiec_eb_expanded_20261023/runs/screen_5znmvkts/eb_cap_expanded.csv",
+      "original_sha256": "6ff19873a8a2768020ac2fbdbabff7a29719b10b586ad9a3dbdfc0532ebebffc",
+      "transformation": "Remove display-only subject column; preserve every other field string and row order."
+    },
+    "records/old/expected/summary.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/summary.csv",
+      "original_sha256": "a853d489679434fb6dc0d7d84e010cfd59aed02c959e500db3a00f9e2f91e219",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/expected/by_seed.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/by_seed.csv",
+      "original_sha256": "a2d208f5adc496b0b1d75e461ffebea11279cf8255c4d14766b2c7743823d0f0",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/expected/by_fold.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/by_fold.csv",
+      "original_sha256": "80f058adc3f2ac8ddd00ab40d2fb416512eee8bac1d943411c0f574bad783713",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/expected/by_budget.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/by_budget.csv",
+      "original_sha256": "f60d1ec36abbcf47df63c90e336693ff12f878b136484351b23ae137a0ce2a80",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/expected/by_benchmark.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/by_benchmark.csv",
+      "original_sha256": "38e0d4f8e17cad5acc28af0f190fe89d29f5000cfe7033964d646defa6f569ff",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/expected/by_benchmark_budget.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/by_benchmark_budget.csv",
+      "original_sha256": "3511657f1471b890842f1fb2494077454c0997972528794f826bf1c602fdffea",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/expected/by_benchmark_seed.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/by_benchmark_seed.csv",
+      "original_sha256": "acca129c4765da0c6f27a9890d0ae8a8f75764b13c867bcdee595b0a7e60fcb4",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/expected/pair_balanced_summary.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/pair_balanced_summary.csv",
+      "original_sha256": "4b70eb75bfde2e9edcada85257ffa9f5e05cb280f494b24b0a25c003d58cc198",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/expected/benchmark_macro_summary.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/benchmark_macro_summary.csv",
+      "original_sha256": "3b6e7b579e3237a5651c14985cd02893bdfa22de19cb869726a81a0424157f42",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/expected/meanmatch_vs_expanded.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/meanmatch_vs_expanded.csv",
+      "original_sha256": "560697a9a1bff5eb84dbb4738579f6e00d281631d37898968650ecdd8db342e2",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/expected/meanmatch_vs_expanded_by_budget.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/meanmatch_vs_expanded_by_budget.csv",
+      "original_sha256": "747dfaf892664e0e78cda7be2cf2e7231145c8fc2a6aedbb527721674343c575",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/prior_summary.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/prior_summary.csv",
+      "original_sha256": "3b114434bb33e62b2ba9fe96b653a75faddc1861ad4104fe1cd6bee710fa83f5",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/evaluation_coverage.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/evaluation_coverage.csv",
+      "original_sha256": "096d0ae519097b675335869528f70621afd4db167dfc583f8f418302fb3bf11f",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/priors.json": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/priors.json",
+      "original_sha256": "fcb3e53a8447d0e9ec361fe75f45c27be2fa44936759473889cee0899f9a30cf",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/pair_stats.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/pair_stats.csv",
+      "original_sha256": "9b28f3321042cc4e89dc461d44d9a8bdb2b46803d929d66ab4d8e30694410c70",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/new_pair_stats.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/new_pair_stats.csv",
+      "original_sha256": "18658463a50b0d7869b241c270ad62996c96b729ca96e33c7e0685f5b3623498",
+      "transformation": "byte-identical copy"
+    },
+    "records/old/folds.json": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/folds.json",
+      "original_sha256": "b88157fb9fbca6c44e96a7607d94bd7a87cbb51e4e14b75b9dff0f0542cbaf4d",
+      "transformation": "byte-identical copy"
+    },
+    "source/comparison_old.py": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/code/comparison.py",
+      "original_sha256": "5a3021e341d2cba4e9af528cdeda366c1cf4fa07d0f8f3f5cd525f6acc06550c",
+      "transformation": "byte-identical copy"
+    },
+    "source/training_old.py": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/code/training.py",
+      "original_sha256": "8c841f732f87518f6cb5994834330b9ebd58ae93987ec52b889aceee5b9c6b7e",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/pairs/eb_old_only.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/eb_old_only.csv",
+      "original_sha256": "e2e57bdfd477b47cbbeeecf05ec25112f73539fa117530277bdfd7c24174465d",
+      "transformation": "Remove display-only subject column; preserve every other field string and row order."
+    },
+    "records/new/pairs/eb_expanded.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/eb_expanded.csv",
+      "original_sha256": "925a2d176db994d648773d0025ef7d81d26a17b4a1a41016a050eeed7495a54d",
+      "transformation": "Remove display-only subject column; preserve every other field string and row order."
+    },
+    "records/new/pairs/eb_expanded_meanmatch.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/eb_expanded_meanmatch.csv",
+      "original_sha256": "0c2f859d403f8ae1fb5c36ea354f18ae493f8b12c468192fd850a7b7c87bc80f",
+      "transformation": "Remove display-only subject column; preserve every other field string and row order."
+    },
+    "records/new/reference_controls/eb_old_only.csv": {
+      "archive_member": "evidence/paiec_eb_newbench_cv_20261024/runs/newbench_16hova27/eb_old_only.csv",
+      "original_sha256": "e2e57bdfd477b47cbbeeecf05ec25112f73539fa117530277bdfd7c24174465d",
+      "transformation": "Remove display-only subject column; preserve every other field string and row order."
+    },
+    "records/new/reference_controls/eb_expanded.csv": {
+      "archive_member": "evidence/paiec_eb_newbench_cv_20261024/runs/newbench_16hova27/eb_expanded.csv",
+      "original_sha256": "925a2d176db994d648773d0025ef7d81d26a17b4a1a41016a050eeed7495a54d",
+      "transformation": "Remove display-only subject column; preserve every other field string and row order."
+    },
+    "records/new/expected/summary.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/summary.csv",
+      "original_sha256": "8544bebb5f0512e32ee898891fd5835a9f0e21671b1f3cf0d35e4917fdcaad50",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/expected/by_seed.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/by_seed.csv",
+      "original_sha256": "17c210e69a1b404b659a5be03b94e8556ca43a8460005b2c439e01b0aed6c6c1",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/expected/by_fold.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/by_fold.csv",
+      "original_sha256": "c35a76446eb24ccc8108e4d6dc9dca17e60b295387905484a6c5bebd65538e5a",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/expected/by_budget.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/by_budget.csv",
+      "original_sha256": "49cca513a627092bcc68c7b61cb5c90b58d1d884055218fa226f54bb99dc3745",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/expected/by_benchmark.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/by_benchmark.csv",
+      "original_sha256": "afcec896a2a86ab3f988f0a90562f7a96ef25666c10b47a8d4653d77044d8069",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/expected/by_benchmark_budget.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/by_benchmark_budget.csv",
+      "original_sha256": "5eac3d4b240de00b94ae87a16d48c7967707af8aee3206a1680cb9ad6da43893",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/expected/by_benchmark_seed.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/by_benchmark_seed.csv",
+      "original_sha256": "16d860ad39d581bcc3385ea0d50dacc371c0f796064631d93428d92279fa1714",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/expected/pair_balanced_summary.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/pair_balanced_summary.csv",
+      "original_sha256": "7a73cdee468fce827b188951c64faafc442870821d5e47bf70dbff27d0954c58",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/expected/benchmark_macro_summary.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/benchmark_macro_summary.csv",
+      "original_sha256": "3812a2feb0b839026e910ed0cd35adfbbaabd71100f9f42a9017a6c29ac25e13",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/expected/meanmatch_vs_expanded.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/meanmatch_vs_expanded.csv",
+      "original_sha256": "a24044194a422a07ec37fe18ed7e83b2b25bf59c36207a23421def6749a06860",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/expected/meanmatch_vs_expanded_by_budget.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/meanmatch_vs_expanded_by_budget.csv",
+      "original_sha256": "da51c4300cd19e32707fde5fc52a781fde8f41da8ada86039fa153db0ffde770",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/prior_summary.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/prior_summary.csv",
+      "original_sha256": "07563607afcadb5e60859e69538307eb36bd9df669fa66cec1c7d77a1e9804fa",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/evaluation_coverage.csv": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/evaluation_coverage.csv",
+      "original_sha256": "853842e5be7426230e5043eedc3e43b24e6d27a09b963d682ae2456a7d96bc8a",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/priors.json": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/priors.json",
+      "original_sha256": "8c81db90e7aeda5f80ddd44b5545c55a311a6f30875e6d136a6fd6f3d9f45dc8",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/pair_stats.csv": {
+      "archive_member": "evidence/paiec_eb_newbench_cv_20261024/prepared/pair_stats.csv",
+      "original_sha256": "9b28f3321042cc4e89dc461d44d9a8bdb2b46803d929d66ab4d8e30694410c70",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/new_pair_stats.csv": {
+      "archive_member": "evidence/paiec_eb_newbench_cv_20261024/prepared/new_pair_stats.csv",
+      "original_sha256": "61d845061b343b2625cdfaf6a6ca015d31ecf1aee602287c3a5bbcad2e51e103",
+      "transformation": "byte-identical copy"
+    },
+    "records/new/split.json": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/split.json",
+      "original_sha256": "dfa97d70a1940165ada23c4e3f00e386667f7d0c03fd2f9cc0b27ed247f3af0b",
+      "transformation": "byte-identical copy"
+    },
+    "source/comparison_new.py": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/code/comparison.py",
+      "original_sha256": "c74da3cb31e542d995eeaf1f97fcf1a148bce68ea8b90603740272ab51ff04b9",
+      "transformation": "byte-identical copy"
+    },
+    "source/calibration.py": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/code/calibration.py",
+      "original_sha256": "9895c779712ae8fe0f4fc55ab4f282bfee2f0c17a1d180c1076d114541c547e4",
+      "transformation": "byte-identical copy"
+    },
+    "source/vendor/eb_core.py": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/code/vendor/eb_core.py",
+      "original_sha256": "141dccf30d7940b4ed8c7e8eefa178276a6c89b11f5b988be42159b0e1a597df",
+      "transformation": "byte-identical copy"
+    },
+    "source/vendor/pair_stats.py": {
+      "archive_member": "evidence/paiec_eb_meanmatch_20261025/runs/meanmatch_h05_goy4/code/vendor/pair_stats.py",
+      "original_sha256": "6df4accdb1df327ccd6e6d410f4fb7aa380051dc7b0e33101c08f68e2c1782a6",
+      "transformation": "byte-identical copy"
+    },
+    "BASELINE_FILES.json": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/code/BASELINE_FILES.json",
+      "original_sha256": "97607963de4ce2d33fe9bf0001d0a70b7a8ab8047bd8ce93d9a954d128443d82",
+      "transformation": "byte-identical copy"
+    },
+    "FROZEN_RULE.json": {
+      "archive_member": "evidence/paiec_eb_meanmatch_old_20261025/runs/meanmatch_old_ouoylcdj/code/FROZEN_RULE.json",
+      "original_sha256": "3db33fdbf42375aafbe367aff0b90324f44db0b4d30eec68cc5b4d46d3b33320",
+      "transformation": "byte-identical copy"
+    }
+  },
+  "scope": {
+    "paired_public_result_replay": true,
+    "training_statistics_prior_refit": true,
+    "full_raw_scoring_rerun": false,
+    "fresh_download_replay": false,
+    "private_hosted_rows_included": false,
+    "broader_exploration_fully_included": false
+  }
+}

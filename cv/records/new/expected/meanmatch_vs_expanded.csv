@@ -1,0 +1,2 @@
+candidate,reference,delta,ci95_low,ci95_high,win_fraction
+eb_expanded_meanmatch,eb_expanded,-0.0007230706366811547,-0.0016153461924065346,-5.312407250814914e-06,0.5060357315306615

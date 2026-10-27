@@ -6,6 +6,11 @@ formative summaries. This release does not claim an independent server rerun of
 all experiments. The candidate rule was fixed before its full-data build and
 the repeat submissions. Evaluation labels were not used to fit its mean target.
 
+The [CV addition](../cv/README.md) now supplies the two principal comparisons'
+saved training statistics and public result records. Prior refitting and all
+eleven aggregate tables per population have been checked on the server and in
+a separate local environment. Raw-data scoring was not rerun by those checks.
+
 ## Public local development comparisons
 
 | Evaluation population | Old-only baseline ALC | Expanded ALC | Mean-matched ALC | Matched minus baseline | Exploratory 95% interval |
@@ -50,7 +55,7 @@ are excluded. The intended order was baseline then mean-match, repeated three
 times. Seven attempts were observed, including one cancellation and a later
 baseline attempt. No best-run selection is used in the summary.
 
-| ID | Time (JST) | Method | Status | Brier ALC |
+| ID | Displayed time | Method | Status | Brier ALC |
 |---|---|---|---|---:|
 | 1010152 | 02:17 | EB-Cap | Finished | 0.203744 |
 | 1010186 | 02:31 | Mean-match | Finished | 0.194683 |
@@ -60,11 +65,12 @@ baseline attempt. No best-run selection is used in the summary.
 | 1010465 | 03:53 | EB-Cap | Finished | 0.206785 |
 | 1010647 | 04:27 | Mean-match | Finished | 0.182187 |
 
-The maintainer suspects network trouble for 1010276. No usable score was
-available in the supplied record; it is retained in the attempt history and
-excluded from score summaries. Whether a score had been seen before cancellation
-was not established. The analysis therefore describes the six completed runs,
-not six uninterrupted attempts under the original protocol.
+Correction confirmed by the maintainer on 27 October 2026: submission 1010276
+was accidentally cancelled by clicking the button during scoring, before a
+numeric score was displayed. This supersedes the earlier unconfirmed network
+hypothesis. The attempt remains in the history and is excluded from score
+summaries; no score is imputed. The six completed-run aggregates are unchanged.
+Times reproduce the UI display; its time zone has not been independently verified.
 
 | Method | Completed runs | Mean ALC | Sample standard deviation | Range |
 |---|---:|---:|---:|---|
@@ -96,7 +102,7 @@ improvement or predict a final leaderboard rank**.
 
 ## Historical results, excluded from the primary repeat comparison
 
-| ID | Date (JST) | Method | Status | Brier ALC |
+| ID | Displayed date | Method | Status | Brier ALC |
 |---|---|---|---|---:|
 | 1008013 | 2026-10-21 | EB-Cap | Finished | 0.185216 |
 | 1010083 | 2026-10-27 | Mean-match | Finished | 0.210622 |

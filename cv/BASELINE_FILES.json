@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/fukushima2940acsl/paiec-eb-cap",
+  "baseline_tag": "v0.1.0-eb-cap",
+  "baseline_commit": "3758402035b7bffe976746812f8c7166dac74877",
+  "files_sha256": {
+    "submissions/eb_grid/model.py": "53ae53b2118486aeef695492d53c96026f11b44da0351d2603fec295fc3ec411",
+    "configs/folds.json": "082293885b2c33fb32403cdd09dac6020072c860d48589ec8a65de685c8c8248",
+    "configs/reference_eval.json": "e96ea9c8a696605841d6381e657cac0dd536c9357018528f80b4e81edd2be084",
+    "experiments/eb_core.py": "141dccf30d7940b4ed8c7e8eefa178276a6c89b11f5b988be42159b0e1a597df",
+    "experiments/pair_stats.py": "6df4accdb1df327ccd6e6d410f4fb7aa380051dc7b0e33101c08f68e2c1782a6",
+    "experiments/local_eval_v2.py": "168a247428cf294f84aa7516a76c751ec371aa0da63b4c1b12e48cb17d5f6de6"
+  }
+}

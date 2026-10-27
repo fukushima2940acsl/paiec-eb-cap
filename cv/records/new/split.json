@@ -1,0 +1,1743 @@
+{
+  "n_folds": 5,
+  "assignment_seed": 20261024,
+  "groups": [
+    {
+      "group": "group_01d058fae227bd9b",
+      "members": [
+        "llm_bp_tag"
+      ],
+      "new_benchmarks": [
+        "llm_bp_tag"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_07839b6468ab0bf8",
+      "members": [
+        "monkey_power_laws"
+      ],
+      "new_benchmarks": [
+        "monkey_power_laws"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "monkey_power_laws"
+      ],
+      "n_pairs": 13,
+      "fold": 0
+    },
+    {
+      "group": "group_095efdd60e8f115b",
+      "members": [
+        "mtbbench"
+      ],
+      "new_benchmarks": [
+        "mtbbench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "mtbbench"
+      ],
+      "n_pairs": 25,
+      "fold": 2
+    },
+    {
+      "group": "group_0a1511f01b153aa8",
+      "members": [
+        "planbench"
+      ],
+      "new_benchmarks": [
+        "planbench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "planbench"
+      ],
+      "n_pairs": 17,
+      "fold": 3
+    },
+    {
+      "group": "group_0d2ec1e3ce6041b2",
+      "members": [
+        "legalbench"
+      ],
+      "new_benchmarks": [
+        "legalbench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_0f69358f550fc38b",
+      "members": [
+        "workbench_revisited"
+      ],
+      "new_benchmarks": [
+        "workbench_revisited"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "workbench_revisited"
+      ],
+      "n_pairs": 24,
+      "fold": 4
+    },
+    {
+      "group": "group_12ad4c5be996cec8",
+      "members": [
+        "vl_rewardbench"
+      ],
+      "new_benchmarks": [
+        "vl_rewardbench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "vl_rewardbench"
+      ],
+      "n_pairs": 1,
+      "fold": 1
+    },
+    {
+      "group": "group_16f2155c3415e142",
+      "members": [
+        "medhelm_pubmed_qa"
+      ],
+      "new_benchmarks": [
+        "medhelm_pubmed_qa"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "medhelm_pubmed_qa"
+      ],
+      "n_pairs": 13,
+      "fold": 0
+    },
+    {
+      "group": "group_16fd63208222a9a6",
+      "members": [
+        "wikihow_agent"
+      ],
+      "new_benchmarks": [
+        "wikihow_agent"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_1852ffc20be7f666",
+      "members": [
+        "mathconstraint"
+      ],
+      "new_benchmarks": [
+        "mathconstraint"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "mathconstraint"
+      ],
+      "n_pairs": 12,
+      "fold": 3
+    },
+    {
+      "group": "group_18cae7167d734f65",
+      "members": [
+        "naep_llm_students"
+      ],
+      "new_benchmarks": [
+        "naep_llm_students"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "naep_llm_students"
+      ],
+      "n_pairs": 11,
+      "fold": 2
+    },
+    {
+      "group": "group_1af09011382ea6dc",
+      "members": [
+        "live_agent_risk"
+      ],
+      "new_benchmarks": [
+        "live_agent_risk"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_1d38cd9da79f8c2c",
+      "members": [
+        "weavebench"
+      ],
+      "new_benchmarks": [
+        "weavebench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_1dfecc974743e6d2",
+      "members": [
+        "tulu_human_eval"
+      ],
+      "new_benchmarks": [
+        "tulu_human_eval"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "tulu_human_eval"
+      ],
+      "n_pairs": 3,
+      "fold": 0
+    },
+    {
+      "group": "group_246e9e4042da5d16",
+      "members": [
+        "sib200"
+      ],
+      "new_benchmarks": [
+        "sib200"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "sib200"
+      ],
+      "n_pairs": 3341,
+      "fold": 1
+    },
+    {
+      "group": "group_24c0920eecec62c5",
+      "members": [
+        "multi_swebench",
+        "swe_rebench",
+        "swe_smith",
+        "swebench_live",
+        "swepolybench"
+      ],
+      "new_benchmarks": [
+        "multi_swebench",
+        "swe_rebench",
+        "swe_smith",
+        "swebench_live",
+        "swepolybench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "multi_swebench",
+        "swe_smith",
+        "swebench_live",
+        "swepolybench"
+      ],
+      "n_pairs": 105,
+      "fold": 0
+    },
+    {
+      "group": "group_2520638fc5a14b14",
+      "members": [
+        "mmlu"
+      ],
+      "new_benchmarks": [
+        "mmlu"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_2616436017af1a6e",
+      "members": [
+        "medhelm_ehr_sql"
+      ],
+      "new_benchmarks": [
+        "medhelm_ehr_sql"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "medhelm_ehr_sql"
+      ],
+      "n_pairs": 13,
+      "fold": 2
+    },
+    {
+      "group": "group_2abd86b50e0e8812",
+      "members": [
+        "realtimeqa"
+      ],
+      "new_benchmarks": [
+        "realtimeqa"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "realtimeqa"
+      ],
+      "n_pairs": 62,
+      "fold": 3
+    },
+    {
+      "group": "group_2be37901b99a7b75",
+      "members": [
+        "jailbreakbench"
+      ],
+      "new_benchmarks": [
+        "jailbreakbench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "jailbreakbench"
+      ],
+      "n_pairs": 10,
+      "fold": 0
+    },
+    {
+      "group": "group_2fba968876f27d93",
+      "members": [
+        "scbench_long"
+      ],
+      "new_benchmarks": [
+        "scbench_long"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_310c121e4a26fb7f",
+      "members": [
+        "safeagentbench"
+      ],
+      "new_benchmarks": [
+        "safeagentbench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "safeagentbench"
+      ],
+      "n_pairs": 6,
+      "fold": 3
+    },
+    {
+      "group": "group_34b8e8563633ef48",
+      "members": [
+        "naturebench"
+      ],
+      "new_benchmarks": [
+        "naturebench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "naturebench"
+      ],
+      "n_pairs": 23,
+      "fold": 3
+    },
+    {
+      "group": "group_359ba090a25b7d30",
+      "members": [
+        "mathvista_mini"
+      ],
+      "new_benchmarks": [
+        "mathvista_mini"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "mathvista_mini"
+      ],
+      "n_pairs": 263,
+      "fold": 2
+    },
+    {
+      "group": "group_3a78551a1cc63ca4",
+      "members": [
+        "sketchjudge"
+      ],
+      "new_benchmarks": [
+        "sketchjudge"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_3e28c699e5c9e9d0",
+      "members": [
+        "statqa"
+      ],
+      "new_benchmarks": [
+        "statqa"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_40986256168bea93",
+      "members": [
+        "medhelm_head_qa"
+      ],
+      "new_benchmarks": [
+        "medhelm_head_qa"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "medhelm_head_qa"
+      ],
+      "n_pairs": 13,
+      "fold": 1
+    },
+    {
+      "group": "group_44e6a2841596be68",
+      "members": [
+        "adaptivestep",
+        "felm",
+        "ikp",
+        "pku_saferlhf",
+        "prox"
+      ],
+      "new_benchmarks": [
+        "ikp",
+        "pku_saferlhf",
+        "prox"
+      ],
+      "old_benchmarks": [
+        "adaptivestep",
+        "felm"
+      ],
+      "eligible_benchmarks": [
+        "ikp"
+      ],
+      "n_pairs": 2,
+      "fold": 0
+    },
+    {
+      "group": "group_49157ea1e22cf23e",
+      "members": [
+        "visual_riddles"
+      ],
+      "new_benchmarks": [
+        "visual_riddles"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "visual_riddles"
+      ],
+      "n_pairs": 8,
+      "fold": 3
+    },
+    {
+      "group": "group_4b3f657a087d03e9",
+      "members": [
+        "taubench"
+      ],
+      "new_benchmarks": [
+        "taubench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "taubench"
+      ],
+      "n_pairs": 2,
+      "fold": 2
+    },
+    {
+      "group": "group_4bd77a627049f51a",
+      "members": [
+        "mypcbench"
+      ],
+      "new_benchmarks": [
+        "mypcbench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_4e33ad863ac0d667",
+      "members": [
+        "openbiorq"
+      ],
+      "new_benchmarks": [
+        "openbiorq"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "openbiorq"
+      ],
+      "n_pairs": 11,
+      "fold": 1
+    },
+    {
+      "group": "group_504a59aced1f682d",
+      "members": [
+        "risebench"
+      ],
+      "new_benchmarks": [
+        "risebench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "risebench"
+      ],
+      "n_pairs": 23,
+      "fold": 2
+    },
+    {
+      "group": "group_51dd5ce0c80d3566",
+      "members": [
+        "tumlu"
+      ],
+      "new_benchmarks": [
+        "tumlu"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "tumlu"
+      ],
+      "n_pairs": 3,
+      "fold": 4
+    },
+    {
+      "group": "group_53dbcdc09ac77b9f",
+      "members": [
+        "tensortrust"
+      ],
+      "new_benchmarks": [
+        "tensortrust"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_556eb732a28943d1",
+      "members": [
+        "morphkv"
+      ],
+      "new_benchmarks": [
+        "morphkv"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "morphkv"
+      ],
+      "n_pairs": 9,
+      "fold": 4
+    },
+    {
+      "group": "group_57cf1c86e6be82f9",
+      "members": [
+        "nyu_ctf_bench"
+      ],
+      "new_benchmarks": [
+        "nyu_ctf_bench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "nyu_ctf_bench"
+      ],
+      "n_pairs": 15,
+      "fold": 2
+    },
+    {
+      "group": "group_58091b96ddd9aad9",
+      "members": [
+        "medhelm_med_qa"
+      ],
+      "new_benchmarks": [
+        "medhelm_med_qa"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "medhelm_med_qa"
+      ],
+      "n_pairs": 13,
+      "fold": 0
+    },
+    {
+      "group": "group_594811ff539cc2b8",
+      "members": [
+        "tau2_bench"
+      ],
+      "new_benchmarks": [
+        "tau2_bench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "tau2_bench"
+      ],
+      "n_pairs": 29,
+      "fold": 4
+    },
+    {
+      "group": "group_5988a1ace3a455c7",
+      "members": [
+        "kmmlu"
+      ],
+      "new_benchmarks": [
+        "kmmlu"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_5ff1290862ce8bf0",
+      "members": [
+        "visualwebarena"
+      ],
+      "new_benchmarks": [
+        "visualwebarena"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "visualwebarena"
+      ],
+      "n_pairs": 3,
+      "fold": 3
+    },
+    {
+      "group": "group_63c43931cea9b872",
+      "members": [
+        "subjective_qa"
+      ],
+      "new_benchmarks": [
+        "subjective_qa"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_6cd32bcac9ab34e0",
+      "members": [
+        "mind2web"
+      ],
+      "new_benchmarks": [
+        "mind2web"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_6d057803b9079f68",
+      "members": [
+        "software_world_models"
+      ],
+      "new_benchmarks": [
+        "software_world_models"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "software_world_models"
+      ],
+      "n_pairs": 18,
+      "fold": 4
+    },
+    {
+      "group": "group_70defc7058055afb",
+      "members": [
+        "robust_reasoning_benchmark"
+      ],
+      "new_benchmarks": [
+        "robust_reasoning_benchmark"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "robust_reasoning_benchmark"
+      ],
+      "n_pairs": 23,
+      "fold": 1
+    },
+    {
+      "group": "group_717ac736ae325155",
+      "members": [
+        "mj_bench"
+      ],
+      "new_benchmarks": [
+        "mj_bench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "mj_bench"
+      ],
+      "n_pairs": 12,
+      "fold": 4
+    },
+    {
+      "group": "group_7337993598b9ef35",
+      "members": [
+        "radar"
+      ],
+      "new_benchmarks": [
+        "radar"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_7bc8a11f956bd18d",
+      "members": [
+        "mmbench_v11"
+      ],
+      "new_benchmarks": [
+        "mmbench_v11"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "mmbench_v11"
+      ],
+      "n_pairs": 1,
+      "fold": 2
+    },
+    {
+      "group": "group_7e64735e1005a186",
+      "members": [
+        "perumedqa"
+      ],
+      "new_benchmarks": [
+        "perumedqa"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_829db68df6f44581",
+      "members": [
+        "legal_rag_bench"
+      ],
+      "new_benchmarks": [
+        "legal_rag_bench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "legal_rag_bench"
+      ],
+      "n_pairs": 6,
+      "fold": 0
+    },
+    {
+      "group": "group_83626ef0c4844b76",
+      "members": [
+        "researchcodebench"
+      ],
+      "new_benchmarks": [
+        "researchcodebench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "researchcodebench"
+      ],
+      "n_pairs": 31,
+      "fold": 1
+    },
+    {
+      "group": "group_892dfcf65bba7685",
+      "members": [
+        "worldcentralbanks"
+      ],
+      "new_benchmarks": [
+        "worldcentralbanks"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_93c8b41479f60f19",
+      "members": [
+        "llmail_inject"
+      ],
+      "new_benchmarks": [
+        "llmail_inject"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "llmail_inject"
+      ],
+      "n_pairs": 2,
+      "fold": 4
+    },
+    {
+      "group": "group_94202bf3c0f2f323",
+      "members": [
+        "ood_prediction"
+      ],
+      "new_benchmarks": [
+        "ood_prediction"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_9a7cb7630396db21",
+      "members": [
+        "txbench_pp"
+      ],
+      "new_benchmarks": [
+        "txbench_pp"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_9ea4ebda32a74ad4",
+      "members": [
+        "pxplore"
+      ],
+      "new_benchmarks": [
+        "pxplore"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "pxplore"
+      ],
+      "n_pairs": 14,
+      "fold": 1
+    },
+    {
+      "group": "group_9fbecaa8eef84771",
+      "members": [
+        "sugarcrepe"
+      ],
+      "new_benchmarks": [
+        "sugarcrepe"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_a224eae22f1fece4",
+      "members": [
+        "real_webagents"
+      ],
+      "new_benchmarks": [
+        "real_webagents"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "real_webagents"
+      ],
+      "n_pairs": 26,
+      "fold": 3
+    },
+    {
+      "group": "group_a609643e7de9b56f",
+      "members": [
+        "os_harm"
+      ],
+      "new_benchmarks": [
+        "os_harm"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "os_harm"
+      ],
+      "n_pairs": 6,
+      "fold": 1
+    },
+    {
+      "group": "group_ac02758aeacf7baa",
+      "members": [
+        "perfcodebench"
+      ],
+      "new_benchmarks": [
+        "perfcodebench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "perfcodebench"
+      ],
+      "n_pairs": 6,
+      "fold": 2
+    },
+    {
+      "group": "group_ac9decbc79cd62d5",
+      "members": [
+        "kernelbench"
+      ],
+      "new_benchmarks": [
+        "kernelbench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "kernelbench"
+      ],
+      "n_pairs": 18,
+      "fold": 0
+    },
+    {
+      "group": "group_acb9549d0c6c6d0a",
+      "members": [
+        "hle"
+      ],
+      "new_benchmarks": [
+        "hle"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "hle"
+      ],
+      "n_pairs": 2,
+      "fold": 3
+    },
+    {
+      "group": "group_acc3bad4e5326500",
+      "members": [
+        "workarena"
+      ],
+      "new_benchmarks": [
+        "workarena"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "workarena"
+      ],
+      "n_pairs": 4,
+      "fold": 2
+    },
+    {
+      "group": "group_b2c42cb1697dfd5d",
+      "members": [
+        "bbq",
+        "helm_bbq"
+      ],
+      "new_benchmarks": [
+        "helm_bbq"
+      ],
+      "old_benchmarks": [
+        "bbq"
+      ],
+      "eligible_benchmarks": [
+        "helm_bbq"
+      ],
+      "n_pairs": 81,
+      "fold": 4
+    },
+    {
+      "group": "group_b2fea125980658d7",
+      "members": [
+        "revolve"
+      ],
+      "new_benchmarks": [
+        "revolve"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "revolve"
+      ],
+      "n_pairs": 2,
+      "fold": 1
+    },
+    {
+      "group": "group_b4ec3dd4be55dde4",
+      "members": [
+        "medhelm_medhallu"
+      ],
+      "new_benchmarks": [
+        "medhelm_medhallu"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "medhelm_medhallu"
+      ],
+      "n_pairs": 13,
+      "fold": 3
+    },
+    {
+      "group": "group_b5eace196ca05405",
+      "members": [
+        "wmt_mqm"
+      ],
+      "new_benchmarks": [
+        "wmt_mqm"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_b93c51df7e26eb6e",
+      "members": [
+        "nester"
+      ],
+      "new_benchmarks": [
+        "nester"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "nester"
+      ],
+      "n_pairs": 3,
+      "fold": 1
+    },
+    {
+      "group": "group_b95838ce5a2bb50e",
+      "members": [
+        "truthfulqa_mc"
+      ],
+      "new_benchmarks": [
+        "truthfulqa_mc"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "truthfulqa_mc"
+      ],
+      "n_pairs": 150,
+      "fold": 3
+    },
+    {
+      "group": "group_bbc2d17b5116bfd0",
+      "members": [
+        "icpc2_code_selector"
+      ],
+      "new_benchmarks": [
+        "icpc2_code_selector"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_bd9f81ca6f196369",
+      "members": [
+        "llms_lean_formalization"
+      ],
+      "new_benchmarks": [
+        "llms_lean_formalization"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "llms_lean_formalization"
+      ],
+      "n_pairs": 120,
+      "fold": 4
+    },
+    {
+      "group": "group_c0ff4094dfd13d2a",
+      "members": [
+        "interchangeable_token_embeddings"
+      ],
+      "new_benchmarks": [
+        "interchangeable_token_embeddings"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_c531696422617c1c",
+      "members": [
+        "medhelm_race_based_med"
+      ],
+      "new_benchmarks": [
+        "medhelm_race_based_med"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "medhelm_race_based_med"
+      ],
+      "n_pairs": 13,
+      "fold": 1
+    },
+    {
+      "group": "group_c6204f3b5a23094e",
+      "members": [
+        "medhelm_med_mcqa"
+      ],
+      "new_benchmarks": [
+        "medhelm_med_mcqa"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "medhelm_med_mcqa"
+      ],
+      "n_pairs": 13,
+      "fold": 4
+    },
+    {
+      "group": "group_c827b5b16be96784",
+      "members": [
+        "reliancescope"
+      ],
+      "new_benchmarks": [
+        "reliancescope"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "reliancescope"
+      ],
+      "n_pairs": 24,
+      "fold": 1
+    },
+    {
+      "group": "group_ce42b0547313f41a",
+      "members": [
+        "medhelm_medec"
+      ],
+      "new_benchmarks": [
+        "medhelm_medec"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "medhelm_medec"
+      ],
+      "n_pairs": 13,
+      "fold": 2
+    },
+    {
+      "group": "group_d03cde1fbdecbd47",
+      "members": [
+        "sustainable_food"
+      ],
+      "new_benchmarks": [
+        "sustainable_food"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "sustainable_food"
+      ],
+      "n_pairs": 6,
+      "fold": 4
+    },
+    {
+      "group": "group_d618508ffc8668fb",
+      "members": [
+        "mmlupro"
+      ],
+      "new_benchmarks": [
+        "mmlupro"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_d8415476505e7d49",
+      "members": [
+        "kormedmcqa"
+      ],
+      "new_benchmarks": [
+        "kormedmcqa"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_de284247c70e62dc",
+      "members": [
+        "lingoly"
+      ],
+      "new_benchmarks": [
+        "lingoly"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_e0bc851c9c18fbea",
+      "members": [
+        "liveaopsbench"
+      ],
+      "new_benchmarks": [
+        "liveaopsbench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_e45138f0983a6c19",
+      "members": [
+        "igakuqa"
+      ],
+      "new_benchmarks": [
+        "igakuqa"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_e59d4dfab9b63823",
+      "members": [
+        "proofaug"
+      ],
+      "new_benchmarks": [
+        "proofaug"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "proofaug"
+      ],
+      "n_pairs": 1,
+      "fold": 4
+    },
+    {
+      "group": "group_e86bc79a37132f89",
+      "members": [
+        "judgetuning"
+      ],
+      "new_benchmarks": [
+        "judgetuning"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_f05bc5c6c0277bab",
+      "members": [
+        "igakuqa119"
+      ],
+      "new_benchmarks": [
+        "igakuqa119"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "igakuqa119"
+      ],
+      "n_pairs": 1,
+      "fold": 0
+    },
+    {
+      "group": "group_f1ac0dac6a6dbc0a",
+      "members": [
+        "llm_uncertainty_bench"
+      ],
+      "new_benchmarks": [
+        "llm_uncertainty_bench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_f4397f76c85a7061",
+      "members": [
+        "helm_thaiexam"
+      ],
+      "new_benchmarks": [
+        "helm_thaiexam"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "helm_thaiexam"
+      ],
+      "n_pairs": 42,
+      "fold": 2
+    },
+    {
+      "group": "group_f5b2d2873eac62de",
+      "members": [
+        "sgrades"
+      ],
+      "new_benchmarks": [
+        "sgrades"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [],
+      "n_pairs": 0,
+      "fold": null
+    },
+    {
+      "group": "group_f684b22fafd3cb20",
+      "members": [
+        "medhelm_medcalc_bench"
+      ],
+      "new_benchmarks": [
+        "medhelm_medcalc_bench"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "medhelm_medcalc_bench"
+      ],
+      "n_pairs": 13,
+      "fold": 3
+    },
+    {
+      "group": "group_fa0495d511cbc0fb",
+      "members": [
+        "medhelm_medbullets"
+      ],
+      "new_benchmarks": [
+        "medhelm_medbullets"
+      ],
+      "old_benchmarks": [],
+      "eligible_benchmarks": [
+        "medhelm_medbullets"
+      ],
+      "n_pairs": 13,
+      "fold": 4
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "evaluation_benchmarks": [
+        "igakuqa119",
+        "ikp",
+        "jailbreakbench",
+        "kernelbench",
+        "legal_rag_bench",
+        "medhelm_med_qa",
+        "medhelm_pubmed_qa",
+        "monkey_power_laws",
+        "multi_swebench",
+        "swe_smith",
+        "swebench_live",
+        "swepolybench",
+        "tulu_human_eval"
+      ],
+      "evaluation_groups": [
+        "group_07839b6468ab0bf8",
+        "group_16f2155c3415e142",
+        "group_1dfecc974743e6d2",
+        "group_24c0920eecec62c5",
+        "group_2be37901b99a7b75",
+        "group_44e6a2841596be68",
+        "group_58091b96ddd9aad9",
+        "group_829db68df6f44581",
+        "group_ac9decbc79cd62d5",
+        "group_f05bc5c6c0277bab"
+      ],
+      "excluded_old_benchmarks": [
+        "adaptivestep",
+        "felm"
+      ],
+      "excluded_new_benchmarks": [
+        "igakuqa119",
+        "ikp",
+        "jailbreakbench",
+        "kernelbench",
+        "legal_rag_bench",
+        "medhelm_med_qa",
+        "medhelm_pubmed_qa",
+        "monkey_power_laws",
+        "multi_swebench",
+        "pku_saferlhf",
+        "prox",
+        "swe_rebench",
+        "swe_smith",
+        "swebench_live",
+        "swepolybench",
+        "tulu_human_eval"
+      ],
+      "eligible_evaluation_pairs": 184,
+      "n_evaluation_benchmarks": 13
+    },
+    {
+      "fold": 1,
+      "evaluation_benchmarks": [
+        "medhelm_head_qa",
+        "medhelm_race_based_med",
+        "nester",
+        "openbiorq",
+        "os_harm",
+        "pxplore",
+        "reliancescope",
+        "researchcodebench",
+        "revolve",
+        "robust_reasoning_benchmark",
+        "sib200",
+        "vl_rewardbench"
+      ],
+      "evaluation_groups": [
+        "group_12ad4c5be996cec8",
+        "group_246e9e4042da5d16",
+        "group_40986256168bea93",
+        "group_4e33ad863ac0d667",
+        "group_70defc7058055afb",
+        "group_83626ef0c4844b76",
+        "group_9ea4ebda32a74ad4",
+        "group_a609643e7de9b56f",
+        "group_b2fea125980658d7",
+        "group_b93c51df7e26eb6e",
+        "group_c531696422617c1c",
+        "group_c827b5b16be96784"
+      ],
+      "excluded_old_benchmarks": [],
+      "excluded_new_benchmarks": [
+        "medhelm_head_qa",
+        "medhelm_race_based_med",
+        "nester",
+        "openbiorq",
+        "os_harm",
+        "pxplore",
+        "reliancescope",
+        "researchcodebench",
+        "revolve",
+        "robust_reasoning_benchmark",
+        "sib200",
+        "vl_rewardbench"
+      ],
+      "eligible_evaluation_pairs": 3482,
+      "n_evaluation_benchmarks": 12
+    },
+    {
+      "fold": 2,
+      "evaluation_benchmarks": [
+        "helm_thaiexam",
+        "mathvista_mini",
+        "medhelm_ehr_sql",
+        "medhelm_medec",
+        "mmbench_v11",
+        "mtbbench",
+        "naep_llm_students",
+        "nyu_ctf_bench",
+        "perfcodebench",
+        "risebench",
+        "taubench",
+        "workarena"
+      ],
+      "evaluation_groups": [
+        "group_095efdd60e8f115b",
+        "group_18cae7167d734f65",
+        "group_2616436017af1a6e",
+        "group_359ba090a25b7d30",
+        "group_4b3f657a087d03e9",
+        "group_504a59aced1f682d",
+        "group_57cf1c86e6be82f9",
+        "group_7bc8a11f956bd18d",
+        "group_ac02758aeacf7baa",
+        "group_acc3bad4e5326500",
+        "group_ce42b0547313f41a",
+        "group_f4397f76c85a7061"
+      ],
+      "excluded_old_benchmarks": [],
+      "excluded_new_benchmarks": [
+        "helm_thaiexam",
+        "mathvista_mini",
+        "medhelm_ehr_sql",
+        "medhelm_medec",
+        "mmbench_v11",
+        "mtbbench",
+        "naep_llm_students",
+        "nyu_ctf_bench",
+        "perfcodebench",
+        "risebench",
+        "taubench",
+        "workarena"
+      ],
+      "eligible_evaluation_pairs": 418,
+      "n_evaluation_benchmarks": 12
+    },
+    {
+      "fold": 3,
+      "evaluation_benchmarks": [
+        "hle",
+        "mathconstraint",
+        "medhelm_medcalc_bench",
+        "medhelm_medhallu",
+        "naturebench",
+        "planbench",
+        "real_webagents",
+        "realtimeqa",
+        "safeagentbench",
+        "truthfulqa_mc",
+        "visual_riddles",
+        "visualwebarena"
+      ],
+      "evaluation_groups": [
+        "group_0a1511f01b153aa8",
+        "group_1852ffc20be7f666",
+        "group_2abd86b50e0e8812",
+        "group_310c121e4a26fb7f",
+        "group_34b8e8563633ef48",
+        "group_49157ea1e22cf23e",
+        "group_5ff1290862ce8bf0",
+        "group_a224eae22f1fece4",
+        "group_acb9549d0c6c6d0a",
+        "group_b4ec3dd4be55dde4",
+        "group_b95838ce5a2bb50e",
+        "group_f684b22fafd3cb20"
+      ],
+      "excluded_old_benchmarks": [],
+      "excluded_new_benchmarks": [
+        "hle",
+        "mathconstraint",
+        "medhelm_medcalc_bench",
+        "medhelm_medhallu",
+        "naturebench",
+        "planbench",
+        "real_webagents",
+        "realtimeqa",
+        "safeagentbench",
+        "truthfulqa_mc",
+        "visual_riddles",
+        "visualwebarena"
+      ],
+      "eligible_evaluation_pairs": 335,
+      "n_evaluation_benchmarks": 12
+    },
+    {
+      "fold": 4,
+      "evaluation_benchmarks": [
+        "helm_bbq",
+        "llmail_inject",
+        "llms_lean_formalization",
+        "medhelm_med_mcqa",
+        "medhelm_medbullets",
+        "mj_bench",
+        "morphkv",
+        "proofaug",
+        "software_world_models",
+        "sustainable_food",
+        "tau2_bench",
+        "tumlu",
+        "workbench_revisited"
+      ],
+      "evaluation_groups": [
+        "group_0f69358f550fc38b",
+        "group_51dd5ce0c80d3566",
+        "group_556eb732a28943d1",
+        "group_594811ff539cc2b8",
+        "group_6d057803b9079f68",
+        "group_717ac736ae325155",
+        "group_93c8b41479f60f19",
+        "group_b2c42cb1697dfd5d",
+        "group_bd9f81ca6f196369",
+        "group_c6204f3b5a23094e",
+        "group_d03cde1fbdecbd47",
+        "group_e59d4dfab9b63823",
+        "group_fa0495d511cbc0fb"
+      ],
+      "excluded_old_benchmarks": [
+        "bbq"
+      ],
+      "excluded_new_benchmarks": [
+        "helm_bbq",
+        "llmail_inject",
+        "llms_lean_formalization",
+        "medhelm_med_mcqa",
+        "medhelm_medbullets",
+        "mj_bench",
+        "morphkv",
+        "proofaug",
+        "software_world_models",
+        "sustainable_food",
+        "tau2_bench",
+        "tumlu",
+        "workbench_revisited"
+      ],
+      "eligible_evaluation_pairs": 331,
+      "n_evaluation_benchmarks": 13
+    }
+  ],
+  "benchmark_to_group": {
+    "ikp": "group_44e6a2841596be68",
+    "pku_saferlhf": "group_44e6a2841596be68",
+    "prox": "group_44e6a2841596be68",
+    "helm_bbq": "group_b2c42cb1697dfd5d",
+    "helm_thaiexam": "group_f4397f76c85a7061",
+    "hle": "group_acb9549d0c6c6d0a",
+    "icpc2_code_selector": "group_bbc2d17b5116bfd0",
+    "igakuqa": "group_e45138f0983a6c19",
+    "igakuqa119": "group_f05bc5c6c0277bab",
+    "interchangeable_token_embeddings": "group_c0ff4094dfd13d2a",
+    "jailbreakbench": "group_2be37901b99a7b75",
+    "judgetuning": "group_e86bc79a37132f89",
+    "kernelbench": "group_ac9decbc79cd62d5",
+    "kmmlu": "group_5988a1ace3a455c7",
+    "kormedmcqa": "group_d8415476505e7d49",
+    "legal_rag_bench": "group_829db68df6f44581",
+    "legalbench": "group_0d2ec1e3ce6041b2",
+    "lingoly": "group_de284247c70e62dc",
+    "live_agent_risk": "group_1af09011382ea6dc",
+    "liveaopsbench": "group_e0bc851c9c18fbea",
+    "llm_bp_tag": "group_01d058fae227bd9b",
+    "llm_uncertainty_bench": "group_f1ac0dac6a6dbc0a",
+    "llmail_inject": "group_93c8b41479f60f19",
+    "llms_lean_formalization": "group_bd9f81ca6f196369",
+    "mathconstraint": "group_1852ffc20be7f666",
+    "mathvista_mini": "group_359ba090a25b7d30",
+    "medhelm_ehr_sql": "group_2616436017af1a6e",
+    "medhelm_head_qa": "group_40986256168bea93",
+    "medhelm_med_mcqa": "group_c6204f3b5a23094e",
+    "medhelm_med_qa": "group_58091b96ddd9aad9",
+    "medhelm_medbullets": "group_fa0495d511cbc0fb",
+    "medhelm_medcalc_bench": "group_f684b22fafd3cb20",
+    "medhelm_medec": "group_ce42b0547313f41a",
+    "medhelm_medhallu": "group_b4ec3dd4be55dde4",
+    "medhelm_pubmed_qa": "group_16f2155c3415e142",
+    "medhelm_race_based_med": "group_c531696422617c1c",
+    "mind2web": "group_6cd32bcac9ab34e0",
+    "mj_bench": "group_717ac736ae325155",
+    "mmbench_v11": "group_7bc8a11f956bd18d",
+    "mmlu": "group_2520638fc5a14b14",
+    "mmlupro": "group_d618508ffc8668fb",
+    "monkey_power_laws": "group_07839b6468ab0bf8",
+    "morphkv": "group_556eb732a28943d1",
+    "mtbbench": "group_095efdd60e8f115b",
+    "multi_swebench": "group_24c0920eecec62c5",
+    "swe_rebench": "group_24c0920eecec62c5",
+    "swe_smith": "group_24c0920eecec62c5",
+    "swebench_live": "group_24c0920eecec62c5",
+    "swepolybench": "group_24c0920eecec62c5",
+    "mypcbench": "group_4bd77a627049f51a",
+    "naep_llm_students": "group_18cae7167d734f65",
+    "naturebench": "group_34b8e8563633ef48",
+    "nester": "group_b93c51df7e26eb6e",
+    "nyu_ctf_bench": "group_57cf1c86e6be82f9",
+    "ood_prediction": "group_94202bf3c0f2f323",
+    "openbiorq": "group_4e33ad863ac0d667",
+    "os_harm": "group_a609643e7de9b56f",
+    "perfcodebench": "group_ac02758aeacf7baa",
+    "perumedqa": "group_7e64735e1005a186",
+    "planbench": "group_0a1511f01b153aa8",
+    "proofaug": "group_e59d4dfab9b63823",
+    "pxplore": "group_9ea4ebda32a74ad4",
+    "radar": "group_7337993598b9ef35",
+    "real_webagents": "group_a224eae22f1fece4",
+    "realtimeqa": "group_2abd86b50e0e8812",
+    "reliancescope": "group_c827b5b16be96784",
+    "researchcodebench": "group_83626ef0c4844b76",
+    "revolve": "group_b2fea125980658d7",
+    "risebench": "group_504a59aced1f682d",
+    "robust_reasoning_benchmark": "group_70defc7058055afb",
+    "safeagentbench": "group_310c121e4a26fb7f",
+    "scbench_long": "group_2fba968876f27d93",
+    "sgrades": "group_f5b2d2873eac62de",
+    "sib200": "group_246e9e4042da5d16",
+    "sketchjudge": "group_3a78551a1cc63ca4",
+    "software_world_models": "group_6d057803b9079f68",
+    "statqa": "group_3e28c699e5c9e9d0",
+    "subjective_qa": "group_63c43931cea9b872",
+    "sugarcrepe": "group_9fbecaa8eef84771",
+    "sustainable_food": "group_d03cde1fbdecbd47",
+    "tau2_bench": "group_594811ff539cc2b8",
+    "taubench": "group_4b3f657a087d03e9",
+    "tensortrust": "group_53dbcdc09ac77b9f",
+    "truthfulqa_mc": "group_b95838ce5a2bb50e",
+    "tulu_human_eval": "group_1dfecc974743e6d2",
+    "tumlu": "group_51dd5ce0c80d3566",
+    "txbench_pp": "group_9a7cb7630396db21",
+    "visual_riddles": "group_49157ea1e22cf23e",
+    "visualwebarena": "group_5ff1290862ce8bf0",
+    "vl_rewardbench": "group_12ad4c5be996cec8",
+    "weavebench": "group_1d38cd9da79f8c2c",
+    "wikihow_agent": "group_16fd63208222a9a6",
+    "wmt_mqm": "group_b5eace196ca05405",
+    "workarena": "group_acc3bad4e5326500",
+    "workbench_revisited": "group_0f69358f550fc38b",
+    "worldcentralbanks": "group_892dfcf65bba7685"
+  },
+  "edges": [
+    {
+      "a": "adaptivestep",
+      "b": "felm",
+      "reason": "old_old_normalized_content"
+    },
+    {
+      "a": "adaptivestep",
+      "b": "prox",
+      "reason": "new_old_normalized_content"
+    },
+    {
+      "a": "bbq",
+      "b": "helm_bbq",
+      "reason": "explicit_family"
+    },
+    {
+      "a": "felm",
+      "b": "ikp",
+      "reason": "new_old_normalized_content"
+    },
+    {
+      "a": "felm",
+      "b": "prox",
+      "reason": "new_old_normalized_content"
+    },
+    {
+      "a": "ikp",
+      "b": "pku_saferlhf",
+      "reason": "new_new_normalized_content"
+    },
+    {
+      "a": "multi_swebench",
+      "b": "swepolybench",
+      "reason": "new_new_normalized_content"
+    },
+    {
+      "a": "swe_rebench",
+      "b": "swe_smith",
+      "reason": "new_new_normalized_content"
+    },
+    {
+      "a": "swe_rebench",
+      "b": "swebench_live",
+      "reason": "new_new_normalized_content"
+    },
+    {
+      "a": "swe_rebench",
+      "b": "swepolybench",
+      "reason": "new_new_normalized_content"
+    },
+    {
+      "a": "swe_smith",
+      "b": "swebench_live",
+      "reason": "new_new_normalized_content"
+    },
+    {
+      "a": "swebench_live",
+      "b": "swepolybench",
+      "reason": "new_new_normalized_content"
+    }
+  ],
+  "valid_new_benchmarks": 96,
+  "eligible_new_benchmarks": 62,
+  "eligible_new_pairs": 4750,
+  "eligible_groups": 59,
+  "quarantined_slugs": [
+    "ineqmath",
+    "mmmu_dev_val",
+    "naturalreasoning"
+  ],
+  "old_overlap_audit": {
+    "old_item_rows": 1356551,
+    "old_items_without_content_hash": 0
+  }
+}

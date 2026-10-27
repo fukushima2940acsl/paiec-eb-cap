@@ -160,7 +160,10 @@
     "date_jst": "2026-10-27 03:02",
     "status": "Cancelled",
     "score": null,
-    "reason": "Maintainer suspects network-related trouble; whether a score was seen before cancellation is not established."
+    "reason": "The maintainer accidentally clicked the cancel button during scoring, before a numeric score was displayed.",
+    "score_visible_before_cancellation": false,
+    "clarification_date": "2026-10-27",
+    "supersedes": "Earlier unconfirmed suspicion of network-related trouble."
   },
   "historical_excluded": [
     {
@@ -180,5 +183,6 @@
     "meanmatch": 0.087987
   },
   "observed_delta": -0.02409466666666668,
-  "private_target_identifiers_included": false
+  "private_target_identifiers_included": false,
+  "display_time_note": "Legacy date_jst fields retain the UI timestamp strings; the display time zone is not independently verified."
 }

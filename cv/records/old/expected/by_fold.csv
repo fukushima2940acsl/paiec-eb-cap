@@ -1,0 +1,16 @@
+method,fold,delta,rows
+eb_cap,0,0.0,421
+eb_cap,1,0.0,360
+eb_cap,2,0.0,277
+eb_cap,3,0.0,93
+eb_cap,4,0.0,377
+eb_cap_expanded,0,0.000592313362132241,421
+eb_cap_expanded,1,0.0009774069866549796,360
+eb_cap_expanded,2,0.0003579187454112351,277
+eb_cap_expanded,3,3.3996204397027005e-05,93
+eb_cap_expanded,4,-0.0008415276674607657,377
+eb_cap_expanded_meanmatch,0,-0.0005963396318946197,421
+eb_cap_expanded_meanmatch,1,0.00022937395998912815,360
+eb_cap_expanded_meanmatch,2,0.00036311354336301423,277
+eb_cap_expanded_meanmatch,3,-0.0004161026012020468,93
+eb_cap_expanded_meanmatch,4,-0.0009852264612338424,377

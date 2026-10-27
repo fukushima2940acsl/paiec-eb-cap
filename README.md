@@ -19,6 +19,25 @@ but mostly evaluated different pairs; this does not establish that the method
 caused the observed difference. Historical runs and the cancelled attempt are
 also recorded. No final competition entry is selected by this addition.
 
+## Verified public CV records (2026-10-27)
+
+The [CV evidence package](cv/README.md) preserves the paired old- and
+additional-benchmark comparisons: training statistics, fold/group definitions,
+fitted priors, public result rows, source identities and checked aggregate tables.
+It refits the fold priors and regenerates all eleven aggregate tables per
+population, including the exploratory bootstrap intervals. Use:
+
+```bash
+python -B cv/check_release.py
+python -B cv/reproduce.py
+```
+
+Outputs go to a new ignored `results/cv_replay_*/` directory. This is training-
+statistic and result replay; it does not rebuild raw evaluation snapshots or
+perform a fresh download. The baseline, mean-matched submitted predictor and
+`v0.1.0-eb-cap` remain available. See [data and transformations](cv/DATA.md) and
+[results and limitations](cv/RESULTS.md).
+
 ## Original baseline results
 
 Lower Brier ALC is better. These numbers are from reported server runs. On 2026-10-21, the maintainer also rebuilt the full-data submission through this repository using the preserved prepared dataset: 20 tests, all 528 prediction-parity cases, the Starting Kit ZIP check, and the smoke test passed. The rebuilt `model.py` and `prior.json` matched the recorded hashes for submission 1008013. See [validation evidence and scope](docs/RESULTS.md#validation-scope); rebuilding the dataset from a fresh download has not yet been independently verified.

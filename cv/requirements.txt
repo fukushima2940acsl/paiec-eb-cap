@@ -1,0 +1,4 @@
+# Original server numerical-library versions. Use a separate environment if needed.
+# Existing environments used in README.md are already verified; no automatic installation.
+numpy==2.3.2
+pandas==3.0.6

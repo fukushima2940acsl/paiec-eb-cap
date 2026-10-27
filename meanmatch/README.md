@@ -117,6 +117,13 @@ It records earlier local CV summaries, but does not claim that all exploratory
 experiments or the grouped additional-benchmark CV are rerun by `reproduce.py`.
 Hosted resampling cannot be replayed locally from the published code alone.
 
+The separate [CV records package](../cv/README.md) now reproduces both principal
+local comparisons from saved training statistics and paired public result rows.
+It refits fold-specific priors and replays the aggregate tables, including their
+intervals. It does not replace the final-model `reproduce.py` workflow or claim
+a new raw-response scoring run.
+
+
 ## Maintainer: capture the original verified build
 
 This step is needed once when adding this directory to the baseline repository.

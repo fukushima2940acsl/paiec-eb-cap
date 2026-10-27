@@ -1,0 +1,125 @@
+{
+  "budgets": [
+    0,
+    1,
+    3,
+    7,
+    15,
+    31
+  ],
+  "alc_weights": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "provenance": "Transcribed by parser from author-supplied completed-run summaries; rounded to six decimals. No new model evaluation.",
+  "populations": {
+    "old": {
+      "budgets": {
+        "old_only": [
+          0.246043,
+          0.222891,
+          0.201082,
+          0.186292,
+          0.179426,
+          0.175235
+        ],
+        "expanded": [
+          0.248294,
+          0.223443,
+          0.200891,
+          0.186133,
+          0.179395,
+          0.17517
+        ],
+        "meanmatch": [
+          0.246043,
+          0.222259,
+          0.200491,
+          0.186036,
+          0.179377,
+          0.175161
+        ]
+      },
+      "summary": {
+        "meanmatch": {
+          "ALC": 0.199753,
+          "delta": -0.000313,
+          "ci95_low": -0.000874,
+          "ci95_high": 0.00016,
+          "win_fraction": 0.528796
+        },
+        "old_only": {
+          "ALC": 0.200066,
+          "delta": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0,
+          "win_fraction": 0.0
+        },
+        "expanded": {
+          "ALC": 0.200319,
+          "delta": 0.000253,
+          "ci95_low": -0.001756,
+          "ci95_high": 0.002074,
+          "win_fraction": 0.486257
+        }
+      },
+      "source_summary_sha256": "20871b14ff9037eb317b16096a2305396ab47696ea19d03abb10081e7766a8ec"
+    },
+    "additional": {
+      "budgets": {
+        "old_only": [
+          0.249274,
+          0.232241,
+          0.215111,
+          0.201456,
+          0.19325,
+          0.188308
+        ],
+        "expanded": [
+          0.252074,
+          0.233702,
+          0.215302,
+          0.201347,
+          0.193077,
+          0.188119
+        ],
+        "meanmatch": [
+          0.249274,
+          0.232387,
+          0.214759,
+          0.201092,
+          0.192986,
+          0.188092
+        ]
+      },
+      "summary": {
+        "meanmatch": {
+          "ALC": 0.211982,
+          "delta": -0.000188,
+          "ci95_low": -0.00042,
+          "ci95_high": 8.9e-05,
+          "win_fraction": 0.575567
+        },
+        "old_only": {
+          "ALC": 0.21217,
+          "delta": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0,
+          "win_fraction": 0.0
+        },
+        "expanded": {
+          "ALC": 0.212705,
+          "delta": 0.000535,
+          "ci95_low": -0.000157,
+          "ci95_high": 0.001446,
+          "win_fraction": 0.48479
+        }
+      },
+      "source_summary_sha256": "0ce45746b44d5f29d26cb4f5ad4d94317ffb64502daae61e1ee207e29c1e7e9b"
+    }
+  }
+}
