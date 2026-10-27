@@ -137,3 +137,5 @@ tools/release_utils.py
 tools/reproduce_cv.py
 tools/verify_reproduction.py
 train_eb_prior.py
+DATA_LICENSES.md
+DATA_ATTRIBUTIONS.json

@@ -4,6 +4,25 @@ An empirical Bayes predictor for the **Predictive AI Evaluation Competition at N
 
 This release preserves the `eb_cap` method associated with **Codabench submission 1008013** as a baseline for further experiments. Original code and documentation are released under the [MIT License](LICENSE). Training data and the official Starting Kit are obtained separately.
 
+## Data licenses and credits (2026-10-28)
+
+See [data licenses and credits](DATA_LICENSES.md) and the
+[benchmark attribution review inventory](DATA_ATTRIBUTIONS.json).
+The MIT License covers original project software and documentation. AIMS-owned
+curation is CC BY-SA 4.0; individual benchmark terms remain separate.
+Raw question text and item-level response tables are not bundled, but derived
+training statistics, fitted priors and public-data CV scores are included.
+Historical access terms and artifact-specific upstream conditions remain under
+review; the inventory is not a blanket permission statement. This supplements
+the preserved baseline notice and data guides.
+
+Please credit Nhi Truong, Sang T. Truong and Sanmi Koyejo (2026),
+[The AI Measurement Data Bank](https://aimslab.stanford.edu/measurement-db),
+and the authors of the
+[official PAIEC Predictor Baselines](https://github.com/aims-foundations/paiec_baseline).
+Full baseline attribution and benchmark-level source citations are in the notice
+and inventory above. This work received no specific funding.
+
 ## Mean-matched extension (2026-10-27)
 
 The [mean-matched expanded-prior addition](meanmatch/README.md) uses all eligible
