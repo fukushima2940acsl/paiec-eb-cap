@@ -12,9 +12,13 @@ The MIT License covers original project software and documentation. AIMS-owned
 curation is CC BY-SA 4.0; individual benchmark terms remain separate.
 Raw question text and item-level response tables are not bundled, but derived
 training statistics, fitted priors and public-data CV scores are included.
-Historical access terms and artifact-specific upstream conditions remain under
-review; the inventory is not a blanket permission statement. This supplements
-the preserved baseline notice and data guides.
+All **160 reviewed metadata files** match the experiment-recorded Hugging Face
+revision, covering all **92 final-training** and **156 published-statistics**
+benchmarks. The [verification record](METADATA_VERIFICATION.json) distinguishes
+159 direct file comparisons from one server hash-only receipt. This verifies
+metadata contents, not historical access consent or permission for every derived
+artifact. Historical access terms and artifact-specific upstream conditions remain
+under review. This supplements the preserved baseline notice and data guides.
 
 Please credit Nhi Truong, Sang T. Truong and Sanmi Koyejo (2026),
 [The AI Measurement Data Bank](https://aimslab.stanford.edu/measurement-db),

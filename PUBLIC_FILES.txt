@@ -139,3 +139,4 @@ tools/verify_reproduction.py
 train_eb_prior.py
 DATA_LICENSES.md
 DATA_ATTRIBUTIONS.json
+METADATA_VERIFICATION.json

@@ -47,9 +47,26 @@ software or statistics under CC BY-SA.
 
 DATA_ATTRIBUTIONS.json records current public metadata, upstream links,
 requested citations and project usage. Its source metadata is pinned to GitHub
-commit 652474f73fed42ebfe08690a7d48e87a78b78dd4. It has NOT been verified against
-the gated historical Hugging Face metadata used for the experiments. It is an
-attribution review aid, not an assertion that all third-party terms are cleared.
+commit 652474f73fed42ebfe08690a7d48e87a78b78dd4. All 160 reviewed metadata
+files now match content retrieved from the experiment-recorded Hugging Face
+revision 54074453da7b9911be0f48e4c560be547bc84d21. The checks cover all 92
+final-training benchmarks and all 156 benchmarks with published training
+statistics. This is a metadata content check, not a new raw-data validation.
+
+[METADATA_VERIFICATION.json](METADATA_VERIFICATION.json) records the evidence:
+159 collected files were directly hashed and compared; live_agent_risk was
+checked through an author-run server hash-only receipt whose revision, hash and
+size match the reviewed GitHub file. This one file was initially excluded by
+credential-pattern screening. Its downloaded contents were not included in the
+receipt. It contributes to public statistics but not the final training fit.
+The fixed-version README also confirms the recorded citation and the distinction
+between AIMS-owned curation and upstream benchmark terms. Its prose differs from
+the reviewed GitHub README.
+
+These files were newly retrieved for the review on 28 October 2026. The match
+does not establish what access conditions the author accepted at the time of
+the original downloads, and it does not resolve artifact-specific upstream
+conditions. The inventory remains a review aid, not blanket rights clearance.
 Its metadata-derived content carries the AIMS credit and CC BY-SA notice in
 that file. Unknown or absent license information is neither permission nor
 proof that use is prohibited. Preserve upstream credits, notices and terms

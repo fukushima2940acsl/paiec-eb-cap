@@ -3,7 +3,7 @@
   "reviewed_public_repository_commit": "9dc195985f9503a3fe39d4145b5ef725747701a1",
   "data_revision_used_in_experiments": "54074453da7b9911be0f48e4c560be547bc84d21",
   "current_public_metadata_commit": "652474f73fed42ebfe08690a7d48e87a78b78dd4",
-  "scope_limit": "Current public GitHub metadata, not historical gated Hugging Face metadata. Entries record reported terms and requested citations; absence of a review note is not clearance. Individual source rights, contracts and applicability to each artifact require review.",
+  "scope_limit": "All 160 reviewed metadata files match the experiment-recorded Hugging Face revision. The evidence consists of 159 directly compared files and one server hash-only receipt; see METADATA_VERIFICATION.json. This content verification does not establish historical access consent or artifact-specific rights clearance. Entries retain the source terms and citations; absence of a review note is not clearance.",
   "metadata_credit": {
     "work": "The AI Measurement Data Bank",
     "creators": [
@@ -63,8 +63,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/abstract_reason/metadata.yaml",
       "metadata_sha256": "c531fa4c17680e2028049c882b2a33076a98f3e83f20483ca26b2435767aa842",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "adaptivestep",
@@ -84,8 +85,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/adaptivestep/metadata.yaml",
       "metadata_sha256": "1d9607e67892837bb92ddf35aacea3d72d9ed70cc5995709bf0a78cdacf603e0",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "advprompter",
@@ -105,8 +107,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/advprompter/metadata.yaml",
       "metadata_sha256": "179c0f46249d0d98bab78d52fabdead51533ed788502ca2286b28d806392a983",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "aegis",
@@ -126,8 +129,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/aegis/metadata.yaml",
       "metadata_sha256": "37c91bd8dec145428760c8adc7db451e87ede58bc0a70cd0765c3e32c8d23886",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "afrieval",
@@ -151,8 +155,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/afrieval/metadata.yaml",
       "metadata_sha256": "52743fd5968f5e33956f4a884902f8e97109148c035a5db72ac960e9917ef92e",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "afrimedqa",
@@ -172,8 +177,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/afrimedqa/metadata.yaml",
       "metadata_sha256": "f490c7a27a8cf476d93db062a71ecffd5dab00e0ddfc9d8b3609ccbdd3f84f89",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "agentic_review_perturbation",
@@ -197,8 +203,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/agentic_review_perturbation/metadata.yaml",
       "metadata_sha256": "ec8940d29d1b2dfa346120bc70503198e49052f35abfdeac666e0248ff94308b",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "agi_elo",
@@ -218,8 +225,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/agi_elo/metadata.yaml",
       "metadata_sha256": "0f3a38c876f0025e71cd045a8b9b723f6bfafa68e2e962e1a77058327bd9e292",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "ai2d_test",
@@ -239,8 +247,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/ai2d_test/metadata.yaml",
       "metadata_sha256": "aba6069955708233535b71c02ce9a8d7592bdf8ec0f282918debaa6ba1c22f1d",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "aider",
@@ -260,8 +269,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/aider/metadata.yaml",
       "metadata_sha256": "8d99f1bc551bcefcb91809b657fee21ea1c8373ec5ebab888d808ef4457d5cc9",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "algotune",
@@ -285,8 +295,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/algotune/metadata.yaml",
       "metadata_sha256": "25f2d0e983ce96b44c604b08b396e72b2677655928788d64dd256b85049ec755",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "alignment_faking",
@@ -310,8 +321,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/alignment_faking/metadata.yaml",
       "metadata_sha256": "3ab577d70fb20c4b788a33af1a191eb323ad4a35b28b902bd7a29ab079624fcc",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "alpha_sql",
@@ -331,8 +343,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/alpha_sql/metadata.yaml",
       "metadata_sha256": "daf79d9b590f4880744c33c461bf5f8c281bdfe1be9ebfd38c70b75341a65732",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "appworld",
@@ -356,8 +369,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/appworld/metadata.yaml",
       "metadata_sha256": "cf9218801684b8625422d780db27d0a67cb12b30a13c5b69743ec1bf412d2a5e",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "auditing_sabotage_bench",
@@ -377,8 +391,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/auditing_sabotage_bench/metadata.yaml",
       "metadata_sha256": "dc0a1161359ee20079a42930655a464210d632993b7cdad8ff9e7d60b88458c2",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "averimatec",
@@ -402,8 +417,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/averimatec/metadata.yaml",
       "metadata_sha256": "36de4ad008452c3560e37339194ddc337f57694204a4385bf1053a7898b5b19e",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "babilong",
@@ -427,8 +443,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/babilong/metadata.yaml",
       "metadata_sha256": "a348d9ef08b3203ad18e4c815437117e75aeac42666f4b585a124d815b7c18ca",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "bbq",
@@ -448,8 +465,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/bbq/metadata.yaml",
       "metadata_sha256": "aba2f68f1af9328e5bf26c7f2731ee9133ae224e88a9fd1e56a51744d3f63a57",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "beavertails",
@@ -475,8 +493,9 @@
       "review_notes": [
         "Dataset CC BY-NC 4.0 differs from Apache-2.0 code. Check attribution and intended use of derived records."
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "benger",
@@ -500,8 +519,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/benger/metadata.yaml",
       "metadata_sha256": "481a7d077aa3df21e55b10e557e525964e67f630e1b05fe5d2bc8692b838d98e",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "bertaqa",
@@ -521,8 +541,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/bertaqa/metadata.yaml",
       "metadata_sha256": "b6353c43aa73f75bacd4572bc68cd081fadc7c23bd338bcbec8ecdf71e625cdd",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "bird_sql",
@@ -546,8 +567,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/bird_sql/metadata.yaml",
       "metadata_sha256": "c9d7cfa19bc63deb90cb043966d6fcdbb664eb54a09bed3ae448cadee35c7b7d",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "brace",
@@ -567,8 +589,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/brace/metadata.yaml",
       "metadata_sha256": "03228744a804ac1d519efa783a4c93c6a2265135e157c6181d1dd351e0a8a443",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "braveguard",
@@ -592,8 +615,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/braveguard/metadata.yaml",
       "metadata_sha256": "6f5d4ae0bbb09de810f8c2da0862fdfbc6b6816cc4c4b6da01882f2bea5febbc",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "bridging_gap",
@@ -617,8 +641,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/bridging_gap/metadata.yaml",
       "metadata_sha256": "d7bf90bd3e6d8001c5a0d6c9ac0278f9078be5b5c261a149de92e6c0ac903aee",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "causal_axioms",
@@ -640,8 +665,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "cellverse",
@@ -665,8 +691,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/cellverse/metadata.yaml",
       "metadata_sha256": "e9bd1bc205b787bce5fd97e0f67cae77868aa9a7c4ff3acfe7a9c1504e23acfe",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "ceval",
@@ -686,8 +713,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/ceval/metadata.yaml",
       "metadata_sha256": "1b3e419103aa75ee424a3ead2a99fbfa7790d8d7b2c4693899878d80aad0d52a",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "chartmuseum",
@@ -704,8 +732,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/chartmuseum/metadata.yaml",
       "metadata_sha256": "f67ee02cb56aa269dfa637b098482bde7fa554c9ab3faa4734fded1ed33f64c2",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "chi_bench",
@@ -725,8 +754,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/chi_bench/metadata.yaml",
       "metadata_sha256": "449a209d64da9fde4b0bfdbd9eda1d9b9771737b58b811aa8990010f2ac84f16",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "clasheval",
@@ -748,8 +778,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "cmmlu",
@@ -769,8 +800,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/cmmlu/metadata.yaml",
       "metadata_sha256": "b74f84febcff9c47b0a92b5f95e30517a394fdc3d7b3722863c0c3aecfedcf3a",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "confagents",
@@ -792,8 +824,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "critic_discernment_game",
@@ -819,8 +852,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "crow",
@@ -844,8 +878,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/crow/metadata.yaml",
       "metadata_sha256": "5d0328ae2a64fcdfc3f238625d041fa9500b413bda229bb07ae53d8ad144da16",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "cruxeval",
@@ -865,8 +900,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/cruxeval/metadata.yaml",
       "metadata_sha256": "5ce07b25acdce9c0bae00229ab55521776dbb38dae18f3bed1878861f8493617",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "dave",
@@ -886,8 +922,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/dave/metadata.yaml",
       "metadata_sha256": "ea22bc9efb247dbd6794d0c2d1765ad2e8268975ce89e8534ce57f17d2b93731",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "dbpa",
@@ -907,8 +944,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/dbpa/metadata.yaml",
       "metadata_sha256": "b4368dd1099c4e38057610bb60366fd889e58d2e92638f8bac7eac4caaf3bdbf",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "devbench",
@@ -932,8 +970,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/devbench/metadata.yaml",
       "metadata_sha256": "810192f04f2b5c3baefc9689b28ced2c33c2f74e68882c085016574d19cdbe63",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "disco",
@@ -953,8 +992,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/disco/metadata.yaml",
       "metadata_sha256": "d37ed4b41e9aba9c91e152cd1f7417bd2da1b58f1899e25191cba2c959afa24d",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "editbench",
@@ -978,8 +1018,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/editbench/metadata.yaml",
       "metadata_sha256": "10116cd615161c5582b4439d27336048f0d6808b54b90f11f1fb137038a070dc",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "edu_circuit_hw",
@@ -1003,8 +1044,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/edu_circuit_hw/metadata.yaml",
       "metadata_sha256": "b4cfe715c86839912eb6f493371388617c0005737e6ee164a76328cb5090b6da",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "egoschema",
@@ -1028,8 +1070,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/egoschema/metadata.yaml",
       "metadata_sha256": "84ba944e0980b002813fc699c779a9b994dffe751ae177d6d081aed414fba201",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "ehrflowbench",
@@ -1049,8 +1092,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/ehrflowbench/metadata.yaml",
       "metadata_sha256": "467a6734c258cea13b06770aa95aedf71699460dd1a302107a49f27fb71bac29",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "elicitation_game",
@@ -1074,8 +1118,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/elicitation_game/metadata.yaml",
       "metadata_sha256": "b7d7ce340dfbb9fd34e62dddc018cb67c598081efe13e326f2994c86d2e1c90b",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "emoji_attack",
@@ -1095,8 +1140,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/emoji_attack/metadata.yaml",
       "metadata_sha256": "cacaf33fe9f156fb732379184092768330a752d75225c7734e2f088b4bb23a2e",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "engdesign",
@@ -1120,8 +1166,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/engdesign/metadata.yaml",
       "metadata_sha256": "9d3db9482a7c4efefc3a129b093cc7c207849cc95fc5294574ee2e87dc488ffa",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "enginemt_qa",
@@ -1145,8 +1192,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/enginemt_qa/metadata.yaml",
       "metadata_sha256": "fa45130924070121f51d03994ff97482000154c764d6e5a36acce9cd16ce3967",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "erbench",
@@ -1166,8 +1214,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/erbench/metadata.yaml",
       "metadata_sha256": "f0a7ccc0008649df644e9d136955d5cd1a2e14d18b154c1c17a3f286a4b6a54c",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "evouna",
@@ -1187,8 +1236,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/evouna/metadata.yaml",
       "metadata_sha256": "7b77e28bc1d6deebda617402c947339be872bb03ac81369a283bac878f8dff46",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "exploitgym",
@@ -1212,8 +1262,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/exploitgym/metadata.yaml",
       "metadata_sha256": "06ed5809aab8d4f0cc9f079e4b65ff895a504d3bbaa16a41d4ae442ab7b550aa",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "faithcot",
@@ -1237,8 +1288,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/faithcot/metadata.yaml",
       "metadata_sha256": "4040a9dc40299de5304a18407e8bb6ed1c1a02ce435a922f30e33dfe7628265a",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "felm",
@@ -1258,8 +1310,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/felm/metadata.yaml",
       "metadata_sha256": "678105610cf790549cdf64c72949f5f88033630270c2e374fac7928f5bbe8e20",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "fewshot_ttt_bbh",
@@ -1283,8 +1336,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/fewshot_ttt_bbh/metadata.yaml",
       "metadata_sha256": "83531c5ff8e5d324016a123dcd28c397af48481c24c288ab0afd8a921b0b7aaa",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "financebench",
@@ -1310,8 +1364,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "finegrain_t2i",
@@ -1335,8 +1390,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/finegrain_t2i/metadata.yaml",
       "metadata_sha256": "8eb6f00e1927133a48399a4080e669b92abbcafb694bfa9e1ee73c7559c9cad7",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "haiid",
@@ -1356,8 +1412,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/haiid/metadata.yaml",
       "metadata_sha256": "927a5aec058f1f0dd3a5bf8f7c37ead31b2dd605a5d513d886cddc94b5d6b1f1",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "hallusionbench",
@@ -1381,8 +1438,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/hallusionbench/metadata.yaml",
       "metadata_sha256": "39cea0d9580d27178887308278d58a3d24710f7d8ed72c72386f272eb0d15bae",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "harmbench",
@@ -1406,8 +1464,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/harmbench/metadata.yaml",
       "metadata_sha256": "acac65fde97194af4461f33d866cf665c0395592803a13100992704740c572cf",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "healthadminbench",
@@ -1431,8 +1490,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/healthadminbench/metadata.yaml",
       "metadata_sha256": "e61a56d5f6c29de35423c1719b44c77bcc3f9b716d27a6f17e2365f81ec235e3",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "helm_afr",
@@ -1454,8 +1514,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "helm_bbq",
@@ -1481,8 +1542,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "helm_thaiexam",
@@ -1508,8 +1570,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "hle",
@@ -1533,8 +1596,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/hle/metadata.yaml",
       "metadata_sha256": "fcb8c319e1f149cebcbd361440b52ed42240aeb64f7b704899ea177d4c04b387",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "icpc2_code_selector",
@@ -1554,8 +1618,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/icpc2_code_selector/metadata.yaml",
       "metadata_sha256": "91acf02b00171acc352c7ddaae84840a19ba47a04a606de707ddcbdbccedd609",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "igakuqa",
@@ -1575,8 +1640,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/igakuqa/metadata.yaml",
       "metadata_sha256": "80e5276d917a5ee5d6daea3b7e9c2884e154897068b864a26836da1a6271076e",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "igakuqa119",
@@ -1600,8 +1666,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/igakuqa119/metadata.yaml",
       "metadata_sha256": "4efa4d52fd8b53c4f3759503213e67ec32292c818ff43f68564e4cc3b15c792c",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "ikp",
@@ -1625,8 +1692,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/ikp/metadata.yaml",
       "metadata_sha256": "9f8403536e1c33d31ca521b1ab766a2e96993e8ef1642b5512f91b9b51622145",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "ineqmath",
@@ -1643,8 +1711,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/ineqmath/metadata.yaml",
       "metadata_sha256": "88cbe2ebba4ac652a2c4be80cec128c561da2fef66e65ebf8e320b9ecd7eadf5",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "interchangeable_token_embeddings",
@@ -1664,8 +1733,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/interchangeable_token_embeddings/metadata.yaml",
       "metadata_sha256": "2b810f0f6fef0eee743eba02de7f74093bd990f2a7de16ae5c35b6d930586968",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "jailbreakbench",
@@ -1689,8 +1759,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/jailbreakbench/metadata.yaml",
       "metadata_sha256": "6703a9dec5c2b1998b6169204e0826447a6c028d58087656d2ab507a9047e48c",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "judgetuning",
@@ -1710,8 +1781,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/judgetuning/metadata.yaml",
       "metadata_sha256": "1f731691030539f56908c27bd160ac5fa96c946b979b9c56a97ce81393c6c65b",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "kernelbench",
@@ -1735,8 +1807,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/kernelbench/metadata.yaml",
       "metadata_sha256": "e9a30fc823b8b6729c4c3d1e550c8c622894f37458fc125ce1c5634176244b4b",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "kmmlu",
@@ -1756,8 +1829,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/kmmlu/metadata.yaml",
       "metadata_sha256": "96055b52f216fff65aafc4386af64daa2b85abb9387edf3a9ab80633a5fea2ef",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "kormedmcqa",
@@ -1777,8 +1851,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/kormedmcqa/metadata.yaml",
       "metadata_sha256": "a9c366deb58c233c74d85387de18d2bcc543ad34279b67b50a231d8d6c681e90",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "legal_rag_bench",
@@ -1804,8 +1879,9 @@
       "review_notes": [
         "Upstream badge says CC BY-NC-SA 4.0 but License prose/link says CC BY-NC 4.0; resolve applicable version. Upstream also requests MLEB citation."
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "legalbench",
@@ -1827,8 +1903,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "lingoly",
@@ -1848,8 +1925,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/lingoly/metadata.yaml",
       "metadata_sha256": "1b6ca8078a11f187292df9cc9795308f3b2b4d9a63fa9d19390645b143636cb2",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "live_agent_risk",
@@ -1869,8 +1947,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/live_agent_risk/metadata.yaml",
       "metadata_sha256": "040a638efde9296dd521e37ebf852aa9cf726fcff8a6906e5bba9adcee7c3d89",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "server_hash_receipt"
     },
     {
       "slug": "liveaopsbench",
@@ -1890,8 +1969,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/liveaopsbench/metadata.yaml",
       "metadata_sha256": "d6a1ac2bd4de7153db8f5a14374ee186c6523e35dbe72ccc1f63b1427a6489b8",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "llm_bp_tag",
@@ -1911,8 +1991,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/llm_bp_tag/metadata.yaml",
       "metadata_sha256": "8c5c9e03d4239d3ed550928700e385c4a6f61e3751fe5f1b95cb5e52b4d5d284",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "llm_uncertainty_bench",
@@ -1932,8 +2013,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/llm_uncertainty_bench/metadata.yaml",
       "metadata_sha256": "c697a9407f902f01b42b15446962fac2d60d963624f9f86c7bd70a6ca4df98ba",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "llmail_inject",
@@ -1957,8 +2039,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/llmail_inject/metadata.yaml",
       "metadata_sha256": "87be0cdea97ce4d4373f1eb3ba5b71411d7a124bc89e466a7e004de96f711fa4",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "llms_lean_formalization",
@@ -1982,8 +2065,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/llms_lean_formalization/metadata.yaml",
       "metadata_sha256": "d3f61ae2f9bc6f608c2c43f3b723e9455e6c8f4e6c51337c235784a870143056",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "mathconstraint",
@@ -2007,8 +2091,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/mathconstraint/metadata.yaml",
       "metadata_sha256": "0bc2f598b7243c49b562e7476e50909f3f8d220f7c0bacc2b417f82a3a4f72c2",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "mathvista_mini",
@@ -2032,8 +2117,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/mathvista_mini/metadata.yaml",
       "metadata_sha256": "e28044fd75feb858a97c1da8dd94616e6fbedd252764a03504bc5ea09115a85d",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "medhelm_ehr_sql",
@@ -2059,8 +2145,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "medhelm_head_qa",
@@ -2082,8 +2169,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "medhelm_med_mcqa",
@@ -2109,8 +2197,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "medhelm_med_qa",
@@ -2136,8 +2225,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "medhelm_medbullets",
@@ -2163,8 +2253,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "medhelm_medcalc_bench",
@@ -2190,8 +2281,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "medhelm_medec",
@@ -2217,8 +2309,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "medhelm_medhallu",
@@ -2244,8 +2337,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "medhelm_pubmed_qa",
@@ -2271,8 +2365,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "medhelm_race_based_med",
@@ -2298,8 +2393,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "mind2web",
@@ -2319,8 +2415,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/mind2web/metadata.yaml",
       "metadata_sha256": "abe43cc475414fe544872bfd8aff84dcd67538274683b43e321995ff41436cee",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "mj_bench",
@@ -2344,8 +2441,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/mj_bench/metadata.yaml",
       "metadata_sha256": "4f03fc0ca9a2523e8febf44db45436b0d26321f2071d82849008f02e0a3e7fb4",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "mmbench_v11",
@@ -2369,8 +2467,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/mmbench_v11/metadata.yaml",
       "metadata_sha256": "4595c744b22e7ec24c1b41f6c629398f211f4e8abc757691d7fcac807f985923",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "mmlu",
@@ -2390,8 +2489,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/mmlu/metadata.yaml",
       "metadata_sha256": "5f296c69de377844abf83d8de70c8410be66b915c0bd282538c5c69548e024fc",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "mmlupro",
@@ -2411,8 +2511,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/mmlupro/metadata.yaml",
       "metadata_sha256": "ffee59cb6829300adc12b62420052ef5276a69a568c5fee35d40127fa396d738",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "mmmu_dev_val",
@@ -2429,8 +2530,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/mmmu_dev_val/metadata.yaml",
       "metadata_sha256": "5285f6eb58d35edaa46862e4bcb48fb77fa6b13abfe73f623a84962816e553ec",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "monkey_power_laws",
@@ -2454,8 +2556,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/monkey_power_laws/metadata.yaml",
       "metadata_sha256": "7d1c6713acfd128a717abd768c5007b33382883fb17534a7f2fd733c239fdade",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "morphkv",
@@ -2479,8 +2582,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/morphkv/metadata.yaml",
       "metadata_sha256": "f66efa1280492590f5e60ce6f3390378e60ed198cce8aa002dd1d18f996f2b7a",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "mtbbench",
@@ -2504,8 +2608,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/mtbbench/metadata.yaml",
       "metadata_sha256": "01b2b48edfb30bc589e802406ef8d184513d9e193707f77a4197db9463d147a7",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "multi_swebench",
@@ -2529,8 +2634,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/multi_swebench/metadata.yaml",
       "metadata_sha256": "f869625ab4317d4918561c6e9bdba4731a033c105b913340e69de4846a9f4954",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "mypcbench",
@@ -2550,8 +2656,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/mypcbench/metadata.yaml",
       "metadata_sha256": "00df851ad2d3d29490cbc97c55ffd076c02bc1495f2deec628d0cfcbcfc118f0",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "naep_llm_students",
@@ -2575,8 +2682,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/naep_llm_students/metadata.yaml",
       "metadata_sha256": "210531fad5b4ade9b08fbb34be8cd7cd50e9baa05bf607b20018579bb2785c9f",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "naturalreasoning",
@@ -2593,8 +2701,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/naturalreasoning/metadata.yaml",
       "metadata_sha256": "0b77bf914c81ab0c351b1e3679eb8d6e2af60ad1bc3383ebe8aa8b8a1100bc7b",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "naturebench",
@@ -2618,8 +2727,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/naturebench/metadata.yaml",
       "metadata_sha256": "cd46324fb0455f348c202f4e01d0d77ac7643e97756493418b7bb58da43911c6",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "nester",
@@ -2645,8 +2755,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "nyu_ctf_bench",
@@ -2670,8 +2781,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/nyu_ctf_bench/metadata.yaml",
       "metadata_sha256": "aa639d75c56df7fca87788b4f0e3ef85c3ea2e2f63fdc394b1e9740ed3d57937",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "ood_prediction",
@@ -2691,8 +2803,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/ood_prediction/metadata.yaml",
       "metadata_sha256": "91facf01baa974b51be99023f9dec05925b68aef61c1e779ed6a37cd56d9ec8d",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "openbiorq",
@@ -2716,8 +2829,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/openbiorq/metadata.yaml",
       "metadata_sha256": "04090e468821de6676376ff879402b3d9ca2679daf7f0b84b8ee9e7350fdc417",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "os_harm",
@@ -2741,8 +2855,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/os_harm/metadata.yaml",
       "metadata_sha256": "74b9a8da614ea3c97f18b469304cb689b9493630f343ffcd828d857541b4513a",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "perfcodebench",
@@ -2768,8 +2883,9 @@
       "review_notes": [
         "Metadata reports no explicit redistribution license; public-release status does not resolve this."
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "perumedqa",
@@ -2789,8 +2905,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/perumedqa/metadata.yaml",
       "metadata_sha256": "48c73dccdde7ef47dca345804d8b1a7932577090c4ab9dd9ef25ab3b1a330484",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "pku_saferlhf",
@@ -2810,8 +2927,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/pku_saferlhf/metadata.yaml",
       "metadata_sha256": "b87c60d55626f15d596d2d0242a784f02087c67baf7ab43e15829f7c88b76189",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "planbench",
@@ -2835,8 +2953,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/planbench/metadata.yaml",
       "metadata_sha256": "a5c052d1f01d2e97f479d8ca97bd6c4125fb53fc919a692b7e3b573f6ed9c651",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "proofaug",
@@ -2862,8 +2981,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "prox",
@@ -2883,8 +3003,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/prox/metadata.yaml",
       "metadata_sha256": "482ee6da2b335321074e5f15d4f3e8170d2c197f3850c52fc77e3f977258d72c",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "pxplore",
@@ -2910,8 +3031,9 @@
       "review_notes": [
         "Metadata reports no explicit license for source learner records/derived tables; public-release status does not resolve this."
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "radar",
@@ -2931,8 +3053,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/radar/metadata.yaml",
       "metadata_sha256": "1a71131f05e1e3601e9226ea3d663814b0def26d9f01f22edf5f3e8f8e745d5f",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "real_webagents",
@@ -2958,8 +3081,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "realtimeqa",
@@ -2983,8 +3107,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/realtimeqa/metadata.yaml",
       "metadata_sha256": "e33030fc42d379896a36cf9f394231317054e86edda5cc09bd3f757b3da6d7c4",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "reliancescope",
@@ -3008,8 +3133,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/reliancescope/metadata.yaml",
       "metadata_sha256": "6dd6943c5af14bcde32c8d40abcd99142917508b0ab9bb6ca5ba51ff99340d58",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "researchcodebench",
@@ -3035,8 +3161,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "revolve",
@@ -3060,8 +3187,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/revolve/metadata.yaml",
       "metadata_sha256": "c001d565aa5e80c4240bdfd0b7d8be4031ae7bc44a429fcb7243e85bef61b065",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "risebench",
@@ -3087,8 +3215,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "robust_reasoning_benchmark",
@@ -3114,8 +3243,9 @@
       "review_notes": [
         "Metadata reports no redistribution license at pinned upstream revision; public-release status does not resolve this."
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "safeagentbench",
@@ -3139,8 +3269,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/safeagentbench/metadata.yaml",
       "metadata_sha256": "23bde98680496294647fcd1595823d335d37f0284483bf9375f924a4d5b89690",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "scbench_long",
@@ -3160,8 +3291,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/scbench_long/metadata.yaml",
       "metadata_sha256": "a39776d9675f8fcb2852b15eee3cfa73671b8473f07418660634d7545a2e179f",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "sgrades",
@@ -3181,8 +3313,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/sgrades/metadata.yaml",
       "metadata_sha256": "fbb0278fc6f209e5ec6826c81b7cd2bc46e724520e8619c33ec4675d6d1fd52d",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "sib200",
@@ -3206,8 +3339,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/sib200/metadata.yaml",
       "metadata_sha256": "40b62fa5abc0c49288626d3bf391f7a8a14be9d1c1cfbcbc278a4b3db87298f0",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "sketchjudge",
@@ -3227,8 +3361,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/sketchjudge/metadata.yaml",
       "metadata_sha256": "9981f15c899ffaccf82d727c70a0b53c9b4233b1f64aeb65f6302fbb4f9ebd85",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "software_world_models",
@@ -3254,8 +3389,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "statqa",
@@ -3275,8 +3411,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/statqa/metadata.yaml",
       "metadata_sha256": "626ec0d45c46a1a5b0737807ffd67dd6d631b5ae96c654903ed20267a8718a95",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "subjective_qa",
@@ -3296,8 +3433,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/subjective_qa/metadata.yaml",
       "metadata_sha256": "5c28b758582f38c1032e94e5e353c6c1b514c2dedcd7961ded95fc100d9ade84",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "sugarcrepe",
@@ -3317,8 +3455,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/sugarcrepe/metadata.yaml",
       "metadata_sha256": "ffa1325e114c124cac95fbf15d685fff7d9ea9355d62163b548d54ceddbaa689",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "sustainable_food",
@@ -3342,8 +3481,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/sustainable_food/metadata.yaml",
       "metadata_sha256": "77ea2ffb866cc566cf497a7252963d1db852cc9f3adb82e0b8c2633320aa7983",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "swe_rebench",
@@ -3363,8 +3503,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/swe_rebench/metadata.yaml",
       "metadata_sha256": "610967ad388e3b5fe66d086442f0c99712d6bea1220248175f4dcb9639dd9d25",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "swe_smith",
@@ -3388,8 +3529,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/swe_smith/metadata.yaml",
       "metadata_sha256": "fa5c7570c8806e90f3a7d5fa9ed1d96cbdb0714c0ded4bb4007be975da64332d",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "swebench_live",
@@ -3413,8 +3555,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/swebench_live/metadata.yaml",
       "metadata_sha256": "b24e6ccc1619622c2e4aa5df5fbdaaedb466e7a57ad2bba4a2a6ab20056d6c31",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "swepolybench",
@@ -3438,8 +3581,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/swepolybench/metadata.yaml",
       "metadata_sha256": "d2af7c9a8a110e12c5149904ce35d939538083260a1fa3f84e09edc6803f4146",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "tau2_bench",
@@ -3463,8 +3607,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/tau2_bench/metadata.yaml",
       "metadata_sha256": "c6168a65ca115f311a7fb85f0b6f1baeadd598dda7a8b2986a04175e922323d1",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "taubench",
@@ -3488,8 +3633,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/taubench/metadata.yaml",
       "metadata_sha256": "39bd8ec34d06c3ad324cef462d63f35ae6633f6c6b0f42bf8678878aef059a9e",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "tensortrust",
@@ -3511,8 +3657,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "truthfulqa_mc",
@@ -3536,8 +3683,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/truthfulqa_mc/metadata.yaml",
       "metadata_sha256": "c9034fc16db795372123c19891bd29db1308741b1d8d9c9d57bd2698512e5936",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "tulu_human_eval",
@@ -3561,8 +3709,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/tulu_human_eval/metadata.yaml",
       "metadata_sha256": "d6ea9920366d8449515008f475e6fca9e1cff77765142cef1bc1a36e0610dab6",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "tumlu",
@@ -3586,8 +3735,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/tumlu/metadata.yaml",
       "metadata_sha256": "d030c4566202f28aa6b9d48afd76ad5f4703c7c499fa50b9f6f747c59c6e55f0",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "txbench_pp",
@@ -3607,8 +3757,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/txbench_pp/metadata.yaml",
       "metadata_sha256": "f37cead85a7f9bcd8f795906c01b61cea367717551daae0ff850a7c4c59aa9d1",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "visual_riddles",
@@ -3632,8 +3783,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/visual_riddles/metadata.yaml",
       "metadata_sha256": "4885d025d3ad6258d23b683ff8d7611ffd5a1b10bcaa39ddd572daf9346fd43c",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "visualwebarena",
@@ -3659,8 +3811,9 @@
       "review_notes": [
         "AgentRewardBench custom terms; code license is not a dataset license. Check application of derivative-terms retention to released statistics."
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "vl_rewardbench",
@@ -3680,8 +3833,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/vl_rewardbench/metadata.yaml",
       "metadata_sha256": "264612a9bee2f4ccb23c36053bd759b4d02426f5aba7a635ab7f9c5370e62d0a",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "weavebench",
@@ -3701,8 +3855,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/weavebench/metadata.yaml",
       "metadata_sha256": "8df2799db5a25dff9423f03521e7fda78fee48a0cb49d467d2c12485eef66b51",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "wikihow_agent",
@@ -3724,8 +3879,9 @@
       "review_notes": [
         "metadata_license_unknown_not_a_prohibition_or_permission"
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "wmt_mqm",
@@ -3745,8 +3901,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/wmt_mqm/metadata.yaml",
       "metadata_sha256": "33791b0c5dbdddf0c136e8fa9dae60d07dcdf783b3dc9f1d39b32909e8d01a8a",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "workarena",
@@ -3772,8 +3929,9 @@
       "review_notes": [
         "AgentRewardBench custom terms; code license is not a dataset license. Check application of derivative-terms retention to released statistics."
       ],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "workbench_revisited",
@@ -3797,8 +3955,9 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/workbench_revisited/metadata.yaml",
       "metadata_sha256": "c3109e8b547fabb9cce4f8cece76e6c33d4634d5862ea29fd1a1375c300282bb",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     },
     {
       "slug": "worldcentralbanks",
@@ -3818,8 +3977,17 @@
       "metadata_source_url": "https://raw.githubusercontent.com/aims-foundations/measurement-db/652474f73fed42ebfe08690a7d48e87a78b78dd4/benchmarks/worldcentralbanks/metadata.yaml",
       "metadata_sha256": "315879fc27afe4c01dc73444bad3e2231999401a06e4d9a08b9e6bb82d13f6a8",
       "review_notes": [],
-      "historical_hf_metadata_verified": false,
-      "rights_clearance": "not_determined_by_this_inventory"
+      "historical_hf_metadata_verified": true,
+      "rights_clearance": "not_determined_by_this_inventory",
+      "hf_metadata_verification_method": "direct_collected_bytes_comparison"
     }
-  ]
+  ],
+  "metadata_content_verification": {
+    "date": "2026-10-28",
+    "status": "all_160_matched",
+    "record": "METADATA_VERIFICATION.json",
+    "direct_file_comparisons": 159,
+    "server_hash_receipts": 1,
+    "field_definition": "historical_hf_metadata_verified means content at the recorded HF revision was matched by the documented method; it does not verify a historical download or consent."
+  }
 }
